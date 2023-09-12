@@ -19,7 +19,7 @@ function Navbar() {
           }
         />
       </div>
-      <ul className={click ? "open" : "close"}>
+      <ul className={click ? "open" : ""}>
         <li>
           <NavLink to="/home">Home</NavLink>
         </li>

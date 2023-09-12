@@ -94,6 +94,7 @@ nav img.lj-logo {
     flex-direction: column;
     width: 100%;
     margin-bottom: 0.25rem;
+    transition: all 1s ease-in-out;
   }
 
   nav ul.open {

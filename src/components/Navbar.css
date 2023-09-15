@@ -36,6 +36,7 @@ nav ul li a {
   padding: 0.5rem;
   margin: 0 1rem;
   border-radius: 0.5rem;
+  font-family: "M PLUS Rounded 1c";
 }
 
 nav ul li a:not(.active):hover {
@@ -94,7 +95,6 @@ nav img.lj-logo {
     flex-direction: column;
     width: 100%;
     margin-bottom: 0.25rem;
-    transition: all 1s ease-in-out;
   }
 
   nav ul.open {

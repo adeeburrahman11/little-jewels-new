@@ -6,6 +6,20 @@ function Navbar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const [isGalleryDropdownOpen, setIsGalleryDropdownOpen] = useState(false);
+  const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
+
+  const toggleGalleryDropdown = () => {
+    setIsGalleryDropdownOpen(!isGalleryDropdownOpen);
+    setIsAboutDropdownOpen(false);
+  };
+
+  const toggleAboutDropdown = () => {
+    setIsAboutDropdownOpen(!isAboutDropdownOpen);
+    setIsGalleryDropdownOpen(false); // Close the other dropdown
+  };
 
   return (
     <nav>
@@ -23,23 +37,47 @@ function Navbar() {
         <li>
           <NavLink to="/home">Home</NavLink>
         </li>
-        <li>
+        <li
+          onMouseEnter={toggleAboutDropdown}
+          onMouseLeave={toggleAboutDropdown}
+        >
           <NavLink to="/about">
             About Us
             <i className="fa-solid fa-angle-down" />
           </NavLink>
+          {isAboutDropdownOpen && (
+            <div className="dropdown-content">
+              <Link>Vision & Mission</Link>
+              <Link>Director Message</Link>
+              <Link>Management</Link>
+            </div>
+          )}
         </li>
-        <li>
+        <li
+          onMouseEnter={toggleGalleryDropdown}
+          onMouseLeave={toggleGalleryDropdown}
+        >
           <NavLink to="/gallery">
             Gallery
             <i className="fa-solid fa-angle-down" />
           </NavLink>
+          {isGalleryDropdownOpen && (
+            <div className="dropdown-content">
+              <Link>Events</Link>
+              <Link>Celebrations</Link>
+              <Link>Achievements</Link>
+              <Link>Media</Link>
+            </div>
+          )}
         </li>
         <li>
           <NavLink to="/academics">Academics</NavLink>
         </li>
         <li>
           <NavLink to="/contact">Contact Us</NavLink>
+        </li>
+        <li>
+          <NavLink to="/badjate-group">Badjate Group</NavLink>
         </li>
       </ul>
     </nav>

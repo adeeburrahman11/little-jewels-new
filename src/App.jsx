@@ -1,7 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
 import Navbar from "./components/Navbar";
-import { About, Contact, Home, Academics, Gallery } from "./components/pages";
+import {
+  About,
+  Contact,
+  Home,
+  Academics,
+  Gallery,
+  BadjateGroup,
+} from "./components/pages";
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,6 +21,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/badjate-group" element={<BadjateGroup />} />
       </Routes>
       <Footer />
     </div>

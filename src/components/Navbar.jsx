@@ -63,10 +63,10 @@ function Navbar() {
           </NavLink>
           {isGalleryDropdownOpen && (
             <div className="dropdown-content">
-              <Link>Events</Link>
-              <Link>Celebrations</Link>
-              <Link>Achievements</Link>
-              <Link>Media</Link>
+              <Link to="/gallery/events">Events</Link>
+              <Link to="/gallery/celebrations">Celebrations</Link>
+              <Link to="/gallery/achievements">Achievements</Link>
+              <Link to="/gallery/media">Media</Link>
             </div>
           )}
         </li>

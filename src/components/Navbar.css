@@ -10,6 +10,7 @@
   border-radius: 0.5rem;
   padding: 1rem 0;
   transition: ease all 0.5s;
+  background-color: #fff;
 }
 
 .nav-link {

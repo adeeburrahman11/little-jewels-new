@@ -11,20 +11,25 @@ function Navbar() {
   const [isGalleryDropdownOpen, setIsGalleryDropdownOpen] = useState(false);
   const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
 
-  const toggleGalleryDropdown = () => {
-    setIsGalleryDropdownOpen(!isGalleryDropdownOpen);
-    setIsAboutDropdownOpen(false);
-  };
+  // const toggleGalleryDropdown = () => {
+  //   setIsGalleryDropdownOpen(!isGalleryDropdownOpen);
+  //   setIsAboutDropdownOpen(false);
+  // };
 
-  const toggleAboutDropdown = () => {
-    setIsAboutDropdownOpen(!isAboutDropdownOpen);
-    setIsGalleryDropdownOpen(false); // Close the other dropdown
-  };
+  // const toggleAboutDropdown = () => {
+  //   setIsAboutDropdownOpen(!isAboutDropdownOpen);
+  //   setIsGalleryDropdownOpen(false);
+  // };
+  const handleHoverGallery = () => setIsGalleryDropdownOpen(true);
+  const handleLeaveGallery = () => setIsGalleryDropdownOpen(false);
+
+  const handleHoverAbout = () => setIsAboutDropdownOpen(true);
+  const handleLeaveAbout = () => setIsAboutDropdownOpen(false);
 
   return (
     <nav>
       <Link to="/" className="title">
-        <img className="lj-logo" src="./src/assets/img/lj-logo.png" />
+        <img className="lj-logo" src="/src/assets/img/lj-logo.png" />
       </Link>
       <div className={"menu"} onClick={handleClick}>
         <i
@@ -37,26 +42,20 @@ function Navbar() {
         <li>
           <NavLink to="/home">Home</NavLink>
         </li>
-        <li
-          onMouseEnter={toggleAboutDropdown}
-          onMouseLeave={toggleAboutDropdown}
-        >
+        <li onMouseEnter={handleHoverAbout} onMouseLeave={handleLeaveAbout}>
           <NavLink to="/about">
             About Us
             <i className="fa-solid fa-angle-down" />
           </NavLink>
           {isAboutDropdownOpen && (
             <div className="dropdown-content">
-              <Link>Vision & Mission</Link>
-              <Link>Director Message</Link>
-              <Link>Management</Link>
+              <Link to="/about/vision&mission">Vision & Mission</Link>
+              <Link to="/about/director-message">Director Message</Link>
+              <Link to="/about/management">Management</Link>
             </div>
           )}
         </li>
-        <li
-          onMouseEnter={toggleGalleryDropdown}
-          onMouseLeave={toggleGalleryDropdown}
-        >
+        <li onMouseEnter={handleHoverGallery} onMouseLeave={handleLeaveGallery}>
           <NavLink to="/gallery">
             Gallery
             <i className="fa-solid fa-angle-down" />

@@ -3,6 +3,9 @@
   color: #fff;
 }
 
+.dropdown-content {
+  position: absolute;
+}
 nav {
   display: flex;
   justify-content: space-between;

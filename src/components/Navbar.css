@@ -9,6 +9,7 @@
   margin-top: 0.5rem;
   border-radius: 0.5rem;
   padding: 1rem 0;
+  transition: ease all 0.5s;
 }
 
 .nav-link {
@@ -22,6 +23,7 @@
 
 .nav-link:hover {
   background-color: rgb(139, 255, 101);
+  transition: all 0.3s ease-in-out;
 }
 
 nav {
@@ -62,7 +64,7 @@ nav ul li a {
 
 nav ul li a:not(.active):hover {
   background-color: rgb(139, 255, 101);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 nav .menu {

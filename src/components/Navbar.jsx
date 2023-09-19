@@ -11,15 +11,6 @@ function Navbar() {
   const [isGalleryDropdownOpen, setIsGalleryDropdownOpen] = useState(false);
   const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
 
-  // const toggleGalleryDropdown = () => {
-  //   setIsGalleryDropdownOpen(!isGalleryDropdownOpen);
-  //   setIsAboutDropdownOpen(false);
-  // };
-
-  // const toggleAboutDropdown = () => {
-  //   setIsAboutDropdownOpen(!isAboutDropdownOpen);
-  //   setIsGalleryDropdownOpen(false);
-  // };
   const handleHoverGallery = () => setIsGalleryDropdownOpen(true);
   const handleLeaveGallery = () => setIsGalleryDropdownOpen(false);
 
@@ -42,32 +33,40 @@ function Navbar() {
         <li>
           <NavLink to="/home">Home</NavLink>
         </li>
-        <li onMouseEnter={handleHoverAbout} onMouseLeave={handleLeaveAbout}>
-          <NavLink to="/about">
+        <li>
+          <div
+            onMouseEnter={handleHoverAbout}
+            onMouseLeave={handleLeaveAbout}
+            className="nav-link"
+          >
             About Us
             <i className="fa-solid fa-angle-down" />
-          </NavLink>
-          {isAboutDropdownOpen && (
-            <div className="dropdown-content">
-              <Link to="/about/vision&mission">Vision & Mission</Link>
-              <Link to="/about/director-message">Director Message</Link>
-              <Link to="/about/management">Management</Link>
-            </div>
-          )}
+            {isAboutDropdownOpen && (
+              <div className="dropdown-content">
+                <Link to="/about/vision&mission">Vision & Mission</Link>
+                <Link to="/about/director-message">Director Message</Link>
+                <Link to="/about/management">Management</Link>
+              </div>
+            )}
+          </div>
         </li>
-        <li onMouseEnter={handleHoverGallery} onMouseLeave={handleLeaveGallery}>
-          <NavLink to="/gallery">
+        <li>
+          <div
+            onMouseEnter={handleHoverGallery}
+            onMouseLeave={handleLeaveGallery}
+            className="nav-link"
+          >
             Gallery
             <i className="fa-solid fa-angle-down" />
-          </NavLink>
-          {isGalleryDropdownOpen && (
-            <div className="dropdown-content">
-              <Link to="/gallery/events">Events</Link>
-              <Link to="/gallery/celebrations">Celebrations</Link>
-              <Link to="/gallery/achievements">Achievements</Link>
-              <Link to="/gallery/media">Media</Link>
-            </div>
-          )}
+            {isGalleryDropdownOpen && (
+              <div className="dropdown-content">
+                <Link to="/gallery/events">Events</Link>
+                <Link to="/gallery/celebrations">Celebrations</Link>
+                <Link to="/gallery/achievements">Achievements</Link>
+                <Link to="/gallery/media">Media</Link>
+              </div>
+            )}
+          </div>
         </li>
         <li>
           <NavLink to="/academics">Academics</NavLink>

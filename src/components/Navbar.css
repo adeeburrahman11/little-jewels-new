@@ -5,7 +5,25 @@
 
 .dropdown-content {
   position: absolute;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
 }
+
+.nav-link {
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  font-family: "M PLUS Rounded 1c";
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: rgb(139, 255, 101);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -111,5 +129,11 @@ nav img.lj-logo {
 
   nav ul li a {
     margin: 0.5rem 0.5rem;
+  }
+  .dropdown-content {
+    position: sticky;
+  }
+  .nav-link:hover {
+    background-color: transparent;
   }
 }

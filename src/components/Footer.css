@@ -1,4 +1,4 @@
-.footer {
+.footer-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +9,7 @@
 
 .footer-left {
   flex: 1;
+  margin: 1rem;
 }
 
 .footer-img {
@@ -18,12 +19,21 @@
 .footer-center {
   flex: 1;
   text-align: justify;
+  flex-direction: column;
+  margin: 1rem;
 }
 
 .footer-center a {
   margin: 0 10px;
   color: white;
   text-decoration: none;
+  font-family: "Exo 2";
+  /* font-weight: bold; */
+}
+
+.footer-center ul li {
+  list-style: none;
+  padding: 0.5rem;
 }
 
 .footer-right {
@@ -34,4 +44,42 @@
 .map {
   width: 100%;
   height: 200px;
+}
+
+.badjate-grp {
+  margin: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Exo 2";
+  font-size: larger;
+}
+
+.badjate-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.badjate-links a img {
+  width: 300px;
+}
+
+.footer-end {
+  text-align: center;
+  background-color: rgb(255, 217, 0);
+  padding: 1rem;
+  /* font-weight: bold; */
+  font-family: "Dosis";
+  margin-bottom: 1rem;
+}
+
+.footer-end a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: rgb(0, 144, 234);
+}
+
+.footer-end a:hover {
+  color: rgb(0, 92, 148);
 }

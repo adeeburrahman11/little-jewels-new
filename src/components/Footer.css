@@ -83,3 +83,36 @@
 .footer-end a:hover {
   color: rgb(0, 92, 148);
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .footer-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: none;
+    width: 100%;
+  }
+
+  .footer-img {
+    width: 200px;
+  }
+
+  .badjate-links {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .badjate-links a img {
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+}

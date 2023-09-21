@@ -66,13 +66,20 @@ function Footer() {
         <div>T h e &nbsp; b a d j a t e &nbsp; g r o u p</div>
         <div className="badjate-links">
           <a href="https://www.badjategroup.com/" target="_blank">
-            <img src="/src/assets/img/badjate-new.jpg" />
+            <img
+              src="/src/assets/img/badjate-new.jpg"
+              width="300px"
+              className="img-fluid"
+            />
           </a>
           <a href="https://www.jaininternationalnagpur.edu.in/" target="_blank">
-            <img src="/src/assets/img/jis-new-logo.png" />
+            <img src="/src/assets/img/jis-new-logo.png" className="img-fluid" />
           </a>
           <a href="https://www.sbjit.edu.in/" target="_blank">
-            <img src="/src/assets/img/sbjain-new-logo.png" />
+            <img
+              src="/src/assets/img/sbjain-new-logo.png"
+              className="img-fluid"
+            />
           </a>
         </div>
       </div>

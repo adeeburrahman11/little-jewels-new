@@ -31,11 +31,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+  background-color: #fff;
   color: rgb(39, 154, 0);
   position: sticky;
   top: 0;
-  margin: 0rem 3rem;
+  padding: 0 2rem;
+  width: 100%;
 }
 
 nav .title {
@@ -91,7 +92,7 @@ nav img.lj-logo {
   width: 200px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   nav .menu {
     display: flex;
     margin: 15px;
@@ -111,7 +112,8 @@ nav img.lj-logo {
   nav {
     flex-direction: column;
     align-items: flex-start;
-    margin: 1rem;
+    padding: 0 1rem;
+    /* margin: 1rem; */
   }
 
   nav ul {

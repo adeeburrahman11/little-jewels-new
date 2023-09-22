@@ -1,5 +1,5 @@
 .active {
-  background-color: rgb(39, 154, 0);
+  background-color: #3cb472;
   color: #fff;
 }
 
@@ -9,8 +9,8 @@
   margin-top: 0.5rem;
   border-radius: 0.5rem;
   padding: 1rem 0;
-  transition: ease all 0.5s;
-  background-color: #fff;
+  /* transition: ease all 0.5s; */
+  background-color: #f3e3b9;
 }
 
 .nav-link {
@@ -31,18 +31,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
-  color: rgb(39, 154, 0);
+  background-color: #f3e3b9;
+  color: #3cb472;
   position: sticky;
   top: 0;
   padding: 0 2rem;
   width: 100%;
+  font-size: 20px;
 }
 
 nav .title {
   margin: 1rem;
   text-decoration: none;
-  color: rgb(39, 154, 0);
+  color: #3cb472;
 }
 
 nav ul {
@@ -56,7 +57,7 @@ nav ul li {
 nav ul li a {
   display: block;
   text-decoration: none;
-  color: rgb(39, 154, 0);
+  color: #3cb472;
   font-weight: bold;
   padding: 0.5rem;
   margin: 0 1rem;
@@ -92,7 +93,7 @@ nav img.lj-logo {
   width: 200px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   nav .menu {
     display: flex;
     margin: 15px;

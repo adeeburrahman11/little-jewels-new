@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Dosis&family=Exo+2&family=Happy+Monkey&display=swap");
+
+/* font-family: 'Coiny', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Happy Monkey', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.outer-container {
+  color: black;
+  height: auto;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.header h1 {
+  margin-top: 4rem;
+  font-size: 4rem;
+  /* font-family: cursive; */
+  color: rgb(8, 8, 94);
+  font-family: "Dosis", cursive;
+  font-weight: bold;
+}
+
+.header .paragraph p {
+  font-size: 1.9rem;
+  width: auto;
+  margin: 4rem 12rem;
+  color: rgb(22, 122, 203);
+  font-family: "Happy Monkey", cursive;
+  font-weight: none;
+}
+
+.cardsection {
+  margin-top: 6rem;
+  /* border: 5px solid red; */
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card-1 {
+  background-color: palevioletred;
+  border-radius: 1rem;
+}
+.card-2 {
+  background-color: greenyellow;
+  border-radius: 1rem;
+}
+.card-3 {
+  background-color: indianred;
+  border-radius: 1rem;
+}
+
+.card-4 {
+  background-color: rgb(206, 161, 121);
+  border-radius: 1rem;
+}
+
+.card-5 {
+  background-color: rgb(113, 113, 161);
+  border-radius: 1rem;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+  width: 13rem;
+  height: 20rem;
+}
+
+.card-1 img,
+.card-2 img,
+.card-3 img,
+.card-4 img,
+.card-5 img {
+  border-radius: 35px;
+  height: 8rem;
+  width: 10rem;
+  margin-left: 3rem;
+  position: absolute;
+  top: -50px;
+}
+
+.card-2 img {
+  width: 11rem;
+  margin-left: 4em;
+}
+.card-3 img {
+  width: 8rem;
+  margin-left: 5rem;
+}
+.card-4 img {
+  width: 8rem;
+  margin-left: 5rem;
+}
+
+.card-1 h1,
+.card-2 h1,
+.card-3 h1,
+.card-4 h1,
+.card-5 h1 {
+  font-size: 1.5rem;
+  color: rgb(8, 8, 94);
+  font-weight: bold;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  font-family: "Exo 2", cursive;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p,
+.card-4 p,
+.card-5 p {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: bold;
+  margin-left: 1rem;
+  font-family: "Exo 2", sans-serif !important;
+}
+
+.card-1 button,
+.card-2 button,
+.card-3 button,
+.card-4 button,
+.card-5 button {
+  background-color: rgb(81, 183, 81);
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 0.5rem 1.2rem 0.8rem 1.2rem;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  border: rgb(81, 183, 81);
+}
+
+.card-3 button {
+  margin-top: 0.5rem;
+}
+
+.card-4 button {
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.button-end {
+  padding: 0.5rem 1.2rem 0.8rem 1.2rem;
+  position: absolute;
+  left: 45%;
+  top: 105%;
+  color: whitesmoke;
+  background-color: rgb(214, 128, 16);
+  border-radius: 0.5rem;
+  border: 2px solid rgb(214, 128, 16);
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.image-13 {
+  position: absolute;
+  width: 10rem;
+  left: 50px;
+  animation: moveElement 2s ease-out infinite;
+}
+
+@keyframes moveElement {
+  0% {
+    transform: translateX(-800px);
+  }
+  20% {
+    transform: translateY(-50px);
+    bottom: 5rem;
+    left: 5rem;
+  }
+  30% {
+    transform: translateY(-90px);
+    bottom: 10rem;
+    left: 10rem;
+  }
+  40% {
+    transform: translateY(-120px);
+    bottom: 15rem;
+    left: 15rem;
+  }
+  50% {
+    transform: translateY(-150px);
+    left: 20rem;
+  }
+  60% {
+    transform: translateY(-180px);
+    bottom: 25rem;
+    left: 25rem;
+  }
+  100% {
+    transform: translateY(-210px);
+    bottom: 30rem;
+    left: 30rem;
+  }
+}
+
+.image-23 {
+  position: absolute;
+  width: 8rem;
+  right: 30px;
+  bottom: 2rem;
+  animation: moveUpDown 1.5s infinite alternate-reverse;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(
+      -150px
+    ); /* Adjust the distance you want it to move up */
+  }
+}
+
+@media (max-width: 960px) {
+  .header .paragraph p {
+    font-size: 1.4rem;
+    width: auto;
+    right: 0;
+    margin: 1rem;
+    margin-bottom: 5rem;
+  }
+}

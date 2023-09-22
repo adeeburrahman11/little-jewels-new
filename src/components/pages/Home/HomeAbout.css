@@ -1,0 +1,129 @@
+.about-main {
+  margin: 5rem;
+  /* padding: 5rem;  */
+  text-align: center;
+}
+
+.about-heading {
+  font-family: "Dosis";
+  font-weight: bold;
+  margin: 4rem 0;
+  font-size: 4rem;
+  -webkit-text-stroke: 2px #293162;
+}
+
+.about-container,
+.about-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url("/src/assets/img/shine-christmas-balls.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.image-container {
+  flex: 1;
+  order: 1; /* By default, image is on the left */
+  max-width: 50%;
+  /* background-image: url("/src/assets/img/shine-christmas-balls.png"); */
+}
+.image-container img,
+.image-container1 img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.text-container {
+  flex: 1;
+  order: 2; /* By default, text is on the right */
+  max-width: 50%;
+  padding: 20px;
+  /* background-image: url("/src/assets/img/shine-christmas-balls.png"); */
+}
+
+.text-container p,
+.text-container1 p {
+  font-family: "Exo 2";
+  text-align: justify;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.image-container1 {
+  flex: 1;
+  order: 2; /* By default, image is on the right */
+  max-width: 50%;
+  /* background-image: url("/src/assets/img/shine-christmas-balls.png"); */
+}
+
+.text-container1 {
+  flex: 1;
+  order: 1; /* By default, text is on the left */
+  max-width: 50%;
+  padding: 20px;
+  /* background-image: url("/src/assets/img/shine-christmas-balls.png");
+    background-size: 120%; */
+}
+
+.about-btns {
+  margin: 3rem;
+}
+
+.about-btns button {
+  text-align: center;
+  width: 16%;
+  padding: 5px 0px;
+  font-family: "Dosis";
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #f5a524;
+  border: 3px solid #f5a524;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.about-btns button:hover {
+  border: 3px solid #f5a524;
+  background-color: #fff;
+  color: #293162;
+}
+
+/* Media query for mobile responsiveness */
+/* Media query for mobile responsiveness */
+@media (max-width: 960px) {
+  .about-container,
+  .about-container1 {
+    flex-direction: column; /* Stack elements on top of each other */
+  }
+
+  .image-container,
+  .image-container1 {
+    max-width: 100%;
+  }
+
+  .text-container,
+  .text-container1 {
+    max-width: 100%;
+    padding: 4px;
+  }
+
+  .about-btns button {
+    width: 70%;
+    /* margin: 1rem 1rem; */
+    font-size: 15px;
+    /* padding: 5px 0px; */
+  }
+
+  .about-main {
+    margin: 2rem;
+    text-align: center;
+  }
+
+  .about-heading {
+    font-size: 3rem; /* Adjust the font size for smaller screens */
+    margin: 2rem 0; /* Add some top margin for spacing */
+    -webkit-text-stroke: 1px #293162; /* Reduce text stroke thickness for readability */
+  }
+}

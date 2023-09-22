@@ -73,7 +73,7 @@
   margin-top: -6rem; */
   margin: -6rem 46rem;
   opacity: 0.2;
-  z-index: 0;
+  z-index: -1;
 }
 
 .card-testimonals {
@@ -135,18 +135,18 @@
   font-weight: bold;
   color: #293162;
 }
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .testimonals-wrapper {
     margin: 0;
     padding: 1rem;
   }
 
   .card-testimonals {
-    width: 100%; /* Adjust the width as needed for smaller screens */
-    margin: 20px 0;
+    width: 80%; /* Adjust the width as needed for smaller screens */
+    margin: 20px 20px;
   }
   .testimonals-shadow {
-    max-width: 20%; /* Make the image responsive */
+    max-width: 15%; /* Make the image responsive */
     height: auto;
     margin-left: 10rem; /* Adjust as needed */
     margin-top: -5rem; /* Adjust as needed */

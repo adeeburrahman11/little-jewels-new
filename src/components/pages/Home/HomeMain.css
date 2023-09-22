@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 20px 5%;
   flex-wrap: nowrap;
-  background: linear-gradient(#f3e3b9 25%, #fff 110%);
+  background: linear-gradient(#f3e3b9 25%, #fff 100%);
   /* position: relative; */
 }
 .main-txt {

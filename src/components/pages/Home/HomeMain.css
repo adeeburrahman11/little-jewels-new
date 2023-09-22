@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 5%;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   background: linear-gradient(#f3e3b9 25%, #fff 110%);
   /* position: relative; */
 }
@@ -31,7 +31,7 @@
   background-size: 100%;
 }
 .box-img img {
-  width: 900px;
+  width: 100%;
 }
 
 .btns {
@@ -67,13 +67,13 @@
   }
   .main-txt {
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     flex: none;
     flex-direction: column;
   }
 
   .main-txt p {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .box-img {
@@ -86,7 +86,7 @@
   }
 
   .btns button {
-    width: 40%;
+    width: 30%;
     margin: 1rem 1rem;
     font-size: 15px;
   }

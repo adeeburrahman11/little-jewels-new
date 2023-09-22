@@ -1,0 +1,154 @@
+/* #app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+/* #root {
+    margin: 0 0;
+    padding: 0;
+    text-align: center;
+  } */
+
+.testimonals-wrapper {
+  display: flex;
+  margin: 0rem 3rem;
+  padding: 2rem 0;
+  justify-content: center;
+  background: url("/src/assets/img/beam-stars.png");
+  background-size: 50%;
+  flex-wrap: wrap;
+}
+
+.main-heading__testimonals {
+  font-family: "Dosis";
+  color: #293162;
+  font-weight: bold;
+  font-size: 4rem;
+  -webkit-text-stroke: 2px #293162;
+  text-align: center;
+  margin-top: 80px;
+  background-image: url("/src/assets/img/icons8-quote-left-480.png");
+}
+
+.testimonals-shadow {
+  position: absolute;
+  transform: scale(5, 5);
+  /* margin-left: 46rem;
+  margin-top: -6rem; */
+  margin: -6rem 46rem;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.card-testimonals {
+  width: 60%; /* Adjust the width as needed */
+  height: auto; /* Adjust the height as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 40px;
+  background-color: #d1f6ea91;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dosis";
+  position: relative; /* Add this to create a stacking context */
+  z-index: 1; /* Add this to place the card above the image */
+}
+.card-testimonals p {
+  font-family: "Exo 2";
+  font-weight: bold;
+}
+
+.quotes-image {
+  opacity: 0.3;
+}
+
+.card p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.parents-corner {
+  display: flex;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+.parents-review {
+  display: flex;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.border-style {
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgb(252, 252, 255);
+  width: 3rem;
+  height: 3rem;
+}
+
+.parents-name {
+  padding-left: 1rem;
+  padding-top: 10px;
+  font-family: "Exo 2";
+  font-weight: bold;
+  color: #293162;
+}
+@media (max-width: 768px) {
+  .testimonals-wrapper {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .card-testimonals {
+    width: 100%; /* Adjust the width as needed for smaller screens */
+    margin: 20px 0;
+  }
+  .testimonals-shadow {
+    max-width: 20%; /* Make the image responsive */
+    height: auto;
+    margin-left: 10rem; /* Adjust as needed */
+    margin-top: -5rem; /* Adjust as needed */
+  }
+}

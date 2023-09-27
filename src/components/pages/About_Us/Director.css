@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    background: linear-gradient(#ffe9ac 1%, #f3e3b9 2%, #ffffff 60%);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.head-Director {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: url("/images/sammy-line-swirls-for-background.png");
+    background-size: 30%;
+    margin: 2rem;
+}
+
+.head-Director h1 {
+    text-align: center;
+    font-family: 'Dosis';
+    font-size: 3rem;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.head-Director .shadow-Director {
+    font-family: "Dosis";
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.09);
+    transform: scale(1.2, 1);
+}
+
+.sec1-Director {
+    text-align: center;
+    background: url("/images/sammy-line-swirls-for-background.png");
+    background-size: 50%;
+    flex-wrap: wrap;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 10rem;
+}
+
+.sec1-Director img {
+    width: 40rem;
+    border-radius: 2rem;
+    box-shadow: 2px 3px 20px black;
+    margin: 1rem;
+
+}
+
+.sec1-Director h2 {
+    font-size: 2rem;
+    margin: 1rem 1rem;
+}
+
+.sec1-Director hr {
+    background: black;
+    border: none;
+    color: black;
+    height: 1px;
+}
+
+.sec1-Director p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+/* Responsive Styles for Phones */
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 12px;
+    }
+
+    .head-Director {
+        margin: 1rem 0rem;
+    }
+
+    .head-Director h1 {
+        font-size: 2rem;
+    }
+
+    .head-Director .shadow-Director {
+        font-size: 3rem;
+    }
+
+    .sec1-Director {
+        margin: 1rem;
+    }
+
+    .sec1-Director img {
+        width: 30rem;
+    }
+}
+
+/* Responsive Styles for Tablets */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    * {
+        font-size: 14px;
+    }
+
+    .head-Director {
+        margin: 1rem 0rem;
+    }
+
+    .head-Director h1 {
+        font-size: 2rem;
+    }
+
+    .head-Director .shadow-Director {
+        font-size: 3rem;
+    }
+
+    .sec1-Director {
+        margin: 1rem;
+    }
+
+    .sec1-Director img {
+        width: 30rem;
+    }
+}

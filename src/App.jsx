@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Contact, Home, Academics, BadjateGroup } from "./components/pages";
 import Footer from "./components/Footer";
+import TeamImage from "./components/pages/About_Us/Teams";
 
 function App() {
   return (

@@ -49,32 +49,32 @@ const App = () => {
                     <img src="../../../assetss/boy1.png" alt="image not loaded" />
                     <h1>Pre - Nursery</h1>
                     <p>Age : 2+ <br />Children born on or <br /> before 31st <br />December, 2021</p>
-                    <button type="button" onClick={openDialog}>Enroll</button>
+                    <button className='program-button' type="button" onClick={openDialog}>Enroll</button>
                 </div>
                 <div className="card-2" data-aos="slide-up">
                     <img src="../../../assetss/boy2.png" alt="" />
                     <h1>Nursery</h1>
                     <p>Age : 2+ <br />Children born on or <br /> before 31st <br />December, 2021</p>
-                    <button type="button" onClick={openDialog}>Enroll</button>
+                    <button className='program-button' type="button" onClick={openDialog}>Enroll</button>
                 </div>
                 <div className="card-3" data-aos="slide-up">
                     <img src="../../../assetss/boy3.png" alt="" />
                     <h1>Lower Kindergarden</h1>
                     <p>Age : 2+ <br />Children born on or <br /> before 31st <br />December, 2021</p>
-                    <button type="button" onClick={openDialog}>Enroll</button>
+                    <button className='program-button' type="button" onClick={openDialog}>Enroll</button>
                 </div>
                 <div className="card-4" data-aos="slide-up">
                     <img src="../../../assetss/boy4.png" alt="" />
                     <h1>Upper Kindergarden</h1>
                     <p>Age : 2+ <br />Children born on or <br /> before 31st <br />December, 2021</p>
-                    <button type="button" onClick={openDialog}>Enroll</button>
+                    <button className='program-button' type="button" onClick={openDialog}>Enroll</button>
                 </div>
                 
                 <div className="card-5" data-aos="slide-up">
                     <img src="../../../assetss/boy5.png" alt="" />
                     <h1>Standard 1</h1>
                     <p>Age : 2+ <br />Children born on or <br /> before 31st <br />December, 2021</p>
-                    <button type="button" onClick={openDialog}>Enroll</button>
+                    <button className='program-button' type="button" onClick={openDialog}>Enroll</button>
                 </div>
             {/* <button className='button-end' type='button'>Learn More</button> */}
 

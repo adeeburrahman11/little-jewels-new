@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import EventGallery from "./pages/Gallery/EventGallery";
 import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 

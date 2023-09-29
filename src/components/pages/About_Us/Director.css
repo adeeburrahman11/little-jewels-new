@@ -23,7 +23,7 @@ body {
 
 .head-Director h1 {
     text-align: center;
-    font-family: 'Dosis';
+    font-family: "Happy Monkey";
     font-size: 3rem;
     text-transform: uppercase;
     position: relative;
@@ -74,6 +74,8 @@ body {
     font-weight: bold;
     text-align: center;
     margin: 1rem 1rem;
+    font-family: "Dosis";
+    color: #293162;
 }
 
 /* Responsive Styles for Phones */
@@ -127,5 +129,11 @@ body {
 
     .sec1-Director img {
         width: 30rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sec1-Director img {
+        width: 20rem;
     }
 }

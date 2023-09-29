@@ -1,9 +1,10 @@
 import React from "react";
+import Badjate from "./Badjate_Group/Badjate";
 
 export const BadjateGroup = () => {
   return (
     <>
-      <h1>BadjateGroup</h1>
+      <Badjate />
     </>
   );
 };

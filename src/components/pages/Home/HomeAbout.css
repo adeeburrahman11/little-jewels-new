@@ -47,7 +47,7 @@
 .text-container1 p {
   font-family: "Exo 2";
   text-align: justify;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -125,5 +125,12 @@
     font-size: 3rem; /* Adjust the font size for smaller screens */
     margin: 2rem 0; /* Add some top margin for spacing */
     -webkit-text-stroke: 1px #293162; /* Reduce text stroke thickness for readability */
+  }
+}
+
+@media (max-wdth: 480px) {
+  .text-container p,
+  .text-container1 p {
+    font-size: smaller;
   }
 }

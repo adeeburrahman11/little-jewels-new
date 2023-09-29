@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { Contact, Home, Academics, BadjateGroup } from "./components/pages";
+import {Home, Academics, BadjateGroup } from "./components/pages";
+import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 import VisionMission from "./components/pages/About_Us/VisionMission";
 import Teams from"./components/pages/About_Us/Teams";

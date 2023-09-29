@@ -122,17 +122,17 @@ function CelebrationsGallery() {
     },
     {
       id: "c21",
-      path: "/images/celebrations/diwali1.jpg",
+      path: "/images/celebrations/IMG_20221021_092046__01.jpg",
       name: "Diwali Celebration",
     },
     {
       id: "c3",
-      path: "/images/celebrations/childrens day (6).jpg",
+      path: "/images/celebrations/IMG_20221114_092235.jpg",
       name: "Childrens Day Celebration",
     },
     {
       id: "c5",
-      path: "/images/celebrations/dussehra (3).jpeg",
+      path: "/images/celebrations/WhatsApp Image 2022-10-04 at 12.55.13.jpeg",
       name: "Dushera Celebration",
     },
     {
@@ -142,7 +142,7 @@ function CelebrationsGallery() {
     },
     {
       id: "c9",
-      path: "/images/celebrations/grandparent1.jpg",
+      path: "/images/celebrations/WhatsApp Image 2022-09-26 at 15.52.47.jpeg",
       name: "Grand Parent's Day Celebration",
     },
     {
@@ -152,17 +152,17 @@ function CelebrationsGallery() {
     },
     {
       id: "c13",
-      path: "/images/celebrations/teacher day (1).jpeg",
+      path: "/images/celebrations/17..jpeg",
       name: "Teacher's Day Celebration",
     },
     {
       id: "c15",
-      path: "/images/celebrations/pola (4).jpeg",
+      path: "/images/celebrations/NUR P.jpeg",
       name: "Pola Celebration",
     },
     {
       id: "c17",
-      path: "/images/celebrations/raksha-bandhan1.jpeg",
+      path: "/images/celebrations/Raksha Bandhan1.jpeg",
       name: "Raksha Bandhan Celebration",
     },
     {

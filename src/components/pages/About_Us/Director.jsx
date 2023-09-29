@@ -5,7 +5,7 @@ export default function Director() {
     <>
       <div className="head-Director">
         <h1>Director's Message </h1>
-        <p className="shadow-Director">Director's Message</p>
+        {/* <p className="shadow-Director">Director's Message</p> */}
       </div>
       <div className="sec1-Director">
         <img src="/images/directors-message.jpg" alt="img1" />

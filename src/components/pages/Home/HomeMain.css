@@ -74,10 +74,10 @@
   }
 
   .main-txt p {
-    font-size: 35px;
+    font-size: 30px;
   }
   .change {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .box-img {
@@ -93,6 +93,7 @@
     width: 30%;
     margin: 1rem 1rem;
     font-size: 15px;
+    font-weight: 500;
   }
 }
 

@@ -64,7 +64,7 @@ function Management() {
     <>
       <div className="head">
         <h1>Management </h1>
-        <p className="shadow">Management</p>
+        {/* <p className="shadow">Management</p> */}
       </div>
 
       <div className="card-container-management">

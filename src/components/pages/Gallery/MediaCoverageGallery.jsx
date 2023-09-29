@@ -42,7 +42,7 @@ function MediaCoverageGallery() {
   return (
     <>
     <div className="background-color-gallery">
-      <div className="wrapper">
+      <div className="wrapper-gallery">
         <h1 className="main-heading-gallery_title">Media Coverage Gallery</h1>
         <div className="card-container">
           {imageUrl.map((image, index) => (

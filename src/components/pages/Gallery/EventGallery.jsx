@@ -189,35 +189,35 @@ function EventGallery() {
 
   return (
     <>
-    <div className="background-color-gallery">
-      <div className="wrapper">
-        <h1 className="main-heading-gallery_title">Event Gallery</h1>
-        <div className="button-container">
-          {buttonTitles.map((button) => (
-            <Button
-              key={button.id}
-              title={button.title}
-              onClick={() => handleButtonClick(button.title)}
-              className={
-                selectedButton === button.title ? "active-button" : ""
-              }
-            />
-          ))}
+      <div className="background-color-gallery">
+        <div className="wrapper-gallery">
+          <h1 className="main-heading-gallery_title">Event Gallery</h1>
+          <div className="button-container">
+            {buttonTitles.map((button) => (
+              <Button
+                key={button.id}
+                title={button.title}
+                onClick={() => handleButtonClick(button.title)}
+                className={
+                  selectedButton === button.title ? "active-button" : ""
+                }
+              />
+            ))}
+          </div>
+          <div className="card-container">
+            {imageUrl.map(
+              (image, index) =>
+                (selectedButton === null || selectedButton === image.name) && (
+                  <Card
+                    key={index}
+                    path={image.path}
+                    name={image.name}
+                    googlePictures={googlePictures}
+                  />
+                )
+            )}
+          </div>
         </div>
-        <div className="card-container">
-          {imageUrl.map(
-            (image, index) =>
-              (selectedButton === null || selectedButton === image.name) && (
-                <Card
-                  key={index}
-                  path={image.path}
-                  name={image.name}
-                  googlePictures={googlePictures}
-                />
-              )
-          )}
-        </div>
-      </div>
       </div>
     </>
   );

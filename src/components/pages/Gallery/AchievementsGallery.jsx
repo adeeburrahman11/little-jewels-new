@@ -132,7 +132,7 @@ function AchievementsGallery() {
   return (
     <>
     <div className="background-color-gallery">
-      <div className="wrapper">
+      <div className="wrapper-gallery">
         <h1 className="main-heading-gallery_title">Achievements Gallery</h1>
         <div className="card-container">
           {imageUrl.map((image, index) => (

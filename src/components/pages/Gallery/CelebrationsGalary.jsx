@@ -162,7 +162,7 @@ function CelebrationsGallery() {
     },
     {
       id: "c17",
-      path: "/images/celebrations/Raksha Bandhan1.jpeg",
+      path: "/images/celebrations/Raksha Bandhan.jpg",
       name: "Raksha Bandhan Celebration",
     },
     {

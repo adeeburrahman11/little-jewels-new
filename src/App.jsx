@@ -12,6 +12,8 @@ import EventGallery from "./components/pages/Gallery/EventGallery";
 import CelebrationsGalary from "./components/pages/Gallery/CelebrationsGalary";
 import AchievementsGallery from "./components/pages/Gallery/AchievementsGallery";
 import MediaCoverageGallery from "./components/pages/Gallery/MediaCoverageGallery";
+import Program from "./components/pages/programcomponent/Program"
+import './App.css';
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
         <Route path="/academics" element={<Academics />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/badjate-group" element={<BadjateGroup />} />
+        <Route path="/program" element={<Program />} />
       </Routes>
       <Footer />
     </div>

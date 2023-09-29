@@ -21,10 +21,9 @@ const Contact = () => {
     const { name, value, type } = target;
 
     if (type === "file") {
-      // Handle file input separately
       setForm({
         ...form,
-        [name]: e.target.files[0], // Capture the selected file
+        [name]: e.target.files[0],
       });
     } else {
       setForm({

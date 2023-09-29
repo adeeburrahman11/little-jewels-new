@@ -1,7 +1,17 @@
-import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "./HomeMain.css";
 
 export const HomeMain = () => {
+  const navigate = useNavigate();
+
+  const handleexplore = () => {
+    navigate("/academics");
+  };
+
+  const handleenquire = () => {
+    navigate("/program");
+  }
+
   return (
     <div className="home">
       <div className="section">
@@ -11,8 +21,10 @@ export const HomeMain = () => {
           </p>
           A Feeder Kindergarten of Jain International School, Nagpur
           <div className="btns">
-            <button>E x p l o r e</button>
-            <button>E n q u i r e&nbsp; N o w</button>
+            <button onClick={handleexplore}>E x p l o r e</button>
+            <button onClick={handleenquire}>
+              E n q u i r e&nbsp; N o w
+            </button>
           </div>
         </div>
         <div className="box-img">

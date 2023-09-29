@@ -51,7 +51,7 @@ body {
 
 .cardsection {
   margin-top: 6rem;
-  /* border: 5px solid red; */
+  margin-bottom: 5rem;
   width: 100%;
   height: 50%;
   display: flex;

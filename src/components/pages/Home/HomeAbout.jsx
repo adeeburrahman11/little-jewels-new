@@ -36,9 +36,6 @@ export const HomeAbout = () => {
           </p>
         </div>
       </div>
-      <div className="about-btns">
-        <button>Learn More</button>
-      </div>
     </div>
   );
 };

@@ -14,6 +14,12 @@ body {
   background-color: #fff;
 }
 
+.program-enquire_form {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 .outer-container {
   color: black;
   height: auto;

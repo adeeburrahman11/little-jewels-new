@@ -22,9 +22,8 @@
 .testimonals-shadow {
   position: absolute;
   transform: scale(5, 5);
-  /* margin-left: 46rem;
-  margin-top: -6rem; */
-  margin: -6rem 46rem;
+  margin-left: -2.5rem;
+  margin-top: -6rem;
   opacity: 0.2;
   z-index: -1;
 }
@@ -48,7 +47,7 @@
   z-index: 1; /* Add this to place the card above the image */
 }
 .card-testimonals p {
-  font-family: "Exo 2";
+  font-family: "Dosis";
   font-weight: bold;
 }
 
@@ -84,11 +83,17 @@
 .parents-name {
   padding-left: 1rem;
   padding-top: 10px;
-  font-family: "Exo 2";
+  font-family: "Dosis";
   font-weight: bold;
   font-size: 25px;
   color: #293162;
 }
+
+.parents-name__description {
+  margin-left: 2rem;
+  font-family: "Dosis";
+}
+
 @media (max-width: 960px) {
   .testimonals-wrapper {
     margin: 0;

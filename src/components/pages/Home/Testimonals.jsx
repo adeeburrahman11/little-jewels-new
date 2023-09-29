@@ -32,9 +32,12 @@ Thanks to "Little Jewels" for providing a great learning system to all the stude
           <section className="parents-corner">
             <h2 className="parents-review">
               {/* <div className="border-style"></div> */}
-              <p className="parents-name">Rohit Sharma</p>
+              <p className="parents-name">Mr. Sunil Choudhary</p>
             </h2>
           </section>
+          <h4 className="parents-name__description">
+            Father of Anshika Choudhary – L.KG.(2019-20)
+          </h4>
         </div>
       </div>
     </>

@@ -82,14 +82,13 @@ body {
 .wrapper {
     display: flex;
     /* border: 1px solid red; */
-    margin: 2rem 3rem;
-    padding: 2rem 0;
+    margin: 2rem 0;
+    padding: 0 0;
     justify-content: center;
     background: url(./images/sammy-line-swirls-for-background.png);
     background-size: 50%;
     flex-wrap: wrap;
 }
-
 
 .card-academics {
     display: grid;
@@ -332,7 +331,7 @@ body {
 
     .sec1 img {
         margin: 1rem;
-        width: 30rem;
+        width: 25rem;
     }
 
     .wrapper {

@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.main-outline-Badjate {
+    background: linear-gradient(#ffe9ac 1%, #f3e3b9 2%, #ffffff 60%);
+    background-size: 90%;
+    flex-wrap: wrap;
+}
+
+.head-Badjate {
+    background: url("/images/sammy-line-swirls-for-background.png");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: 40%;
+    margin: 2rem;
+}
+
+.head-Badjate h1 {
+    text-align: center;
+    font-family: var(--Dosis-VariableFont_wght);
+    font-size: 3rem;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.image-container-Badjate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    background: url("/images/sammy-line-swirls-for-background.png");
+    background-size: 40%;
+}
+
+.image-Badjate {
+    width: 550px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 0.5rem;
+}
+
+.image-Badjate:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.content-Badjate {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.content-Badjate p {
+    margin: 1rem;
+    font-size: 1.5rem;
+    background: url("/images/sammy-line-swirls-for-background.png");
+    display: flex;
+    background-size: 40%;
+}
+
+.education-Badjate {
+    background: url("/images/sammy-line-swirls-for-background.png");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: 40%;
+    margin: 2rem;
+}
+
+.images-container-Badjate {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+}
+
+.images-Badjate {
+    width: 180px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 0.5rem;
+}
+
+.images-Badjate:hover {
+    transform: scale(1.1);
+}
+
+.sub-content-Badjate p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.image-Badjate {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .head-Badjate h1 {
+        font-size: 2rem;
+    }
+
+    .content-Badjate {
+        margin: 0 2rem;
+    }
+
+    .image-container-Badjate {
+        max-width: 80%;
+    }
+
+    .sub-content-Badjate {
+        font-size: 1rem;
+    }
+}
+
+/* Media query for tablets (768px width) */
+@media screen and (max-width: 768px) {
+    .head-Badjate h1 {
+        font-size: 2rem;
+    }
+
+    .content-Badjate {
+        margin: 0 2rem;
+    }
+
+    .image-container-Badjate {
+        max-width: 80%;
+    }
+
+    .sub-content-Badjate {
+        font-size: 1rem;
+    }
+}
+
+/* Media query for phones (480px width) */
+@media screen and (max-width: 480px) {
+    .head-Badjate h1 {
+        font-size: 1.5rem;
+    }
+
+    .content-Badjate {
+        margin: 0 1rem;
+    }
+
+    .image-container-Badjate {
+        max-width: 90%;
+    }
+
+    .sub-content-Badjate {
+        font-size: 0.9rem;
+    }
+}

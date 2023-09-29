@@ -14,6 +14,12 @@ body {
   background-color: #fff;
 }
 
+.program-enquire_form {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 .outer-container {
   color: black;
   height: auto;
@@ -100,17 +106,27 @@ body {
   top: -50px;
 }
 
+.card-1 img {
+  width: 11rem;
+  margin-left: -2rem;
+}
+
 .card-2 img {
   width: 11rem;
-  margin-left: 4em;
+  margin-left: 0.5em;
 }
 .card-3 img {
   width: 8rem;
-  margin-left: 5rem;
+  margin-left: 1rem;
 }
 .card-4 img {
   width: 8rem;
-  margin-left: 5rem;
+  margin-left: 0.5rem;
+}
+
+.card-5 img {
+  width: 8rem;
+  margin-left: 1rem;
 }
 
 .card-1 h1,
@@ -248,4 +264,19 @@ body {
     margin: 1rem;
     margin-bottom: 5rem;
   }
+}
+
+@media (max-width: 480px) {
+.card-1 img,
+.card-2 img,
+.card-3 img,
+.card-4 img,
+.card-5 img {
+  border-radius: 25px;
+  height: 5rem;
+  width: 5rem;
+  margin-left: 1.5rem;
+  position: absolute;
+  top: -10px;
+}
 }

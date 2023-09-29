@@ -95,3 +95,9 @@
     font-size: 15px;
   }
 }
+
+@media (max-width: 480px) {
+  .btns button {
+    font-size: 10px;
+  }
+}

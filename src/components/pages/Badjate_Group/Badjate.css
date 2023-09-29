@@ -5,13 +5,13 @@
 }
 
 .main-outline-Badjate {
-    background: linear-gradient(#ffe9ac 1%, #f3e3b9 2%, #ffffff 60%);
+    /* background: linear-gradient(#ffe9ac 1%, #f3e3b9 2%, #ffffff 60%); */
     background-size: 90%;
     flex-wrap: wrap;
 }
 
 .head-Badjate {
-    background: url("/images/sammy-line-swirls-for-background.png");
+    /* background: url("/images/sammy-line-swirls-for-background.png"); */
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -21,7 +21,7 @@
 
 .head-Badjate h1 {
     text-align: center;
-    font-family: var(--Dosis-VariableFont_wght);
+    font-family: "Dosis";
     font-size: 3rem;
     text-transform: uppercase;
     position: relative;
@@ -33,7 +33,7 @@
     align-items: center;
     text-align: center;
     margin: 1rem;
-    background: url("/images/sammy-line-swirls-for-background.png");
+    /* background: url("/images/sammy-line-swirls-for-background.png"); */
     background-size: 40%;
 }
 
@@ -58,13 +58,13 @@
 .content-Badjate p {
     margin: 1rem;
     font-size: 1.5rem;
-    background: url("/images/sammy-line-swirls-for-background.png");
+    /* background: url("/images/sammy-line-swirls-for-background.png"); */
     display: flex;
     background-size: 40%;
 }
 
 .education-Badjate {
-    background: url("/images/sammy-line-swirls-for-background.png");
+    /* background: url("/images/sammy-line-swirls-for-background.png"); */
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -79,6 +79,7 @@
 }
 
 .images-Badjate {
+    margin-left: 3rem;
     width: 180px;
     height: auto;
     cursor: pointer;
@@ -153,5 +154,9 @@
 
     .sub-content-Badjate {
         font-size: 0.9rem;
+    }
+    .images-Badjate{
+        width: 100%;
+        margin-left: auto;
     }
 }

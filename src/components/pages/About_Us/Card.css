@@ -8,13 +8,6 @@
   flex-wrap: wrap;
 }
 
-#root {
-  background: linear-gradient(#ffe9ac 1%, #f3e3b9 2%, #ffffff 60%);
-  margin: 0 0;
-  padding: 0;
-  text-align: center;
-}
-
 .head {
   display: flex;
   justify-content: center;

@@ -1,10 +1,10 @@
 import React from 'react';
-import AcademicsNav from './Academics_Main/AcademicsNav';
+import AcademicsMain from './AcademicsMain/AcademicsMain';
 
 export const Academics = () => {
   return (
     <div>
-      <AcademicsNav />
+      <AcademicsMain />
     </div>
   );
 }

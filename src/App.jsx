@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { Contact, Home, Academics, BadjateGroup } from "./components/pages";
+import {Home, Academics, BadjateGroup } from "./components/pages";
+import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 import EventGallery from "./components/pages/Gallery/EventGallery";
 import CelebrationsGalary from "./components/pages/Gallery/CelebrationsGalary";

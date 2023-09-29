@@ -26,7 +26,7 @@ export const HomeAbout = () => {
   return (
     <div className="about-main">
       <h1 className="about-heading">About Us</h1>
-      <div className="about-container" data-aos="slide-right" data-aos-once="false" >
+      <div className="about-container" data-aos="slide-up" data-aos-once="false" >
         <div className="image-container" >
           <img src="/src/assets/img/pexels-rdne-stock-project-8363102.jpg" />
         </div>
@@ -41,7 +41,7 @@ export const HomeAbout = () => {
           </p>
         </div>
       </div>
-      <div className="about-container1" data-aos="slide-left" data-aos-once="false">
+      <div className="about-container1" data-aos="slide-up" data-aos-once="false">
         <div className="image-container1">
           <img src="/src/assets/img/pexels-rdne-stock-project-8363102.jpg" />
         </div>

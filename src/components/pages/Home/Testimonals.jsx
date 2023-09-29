@@ -1,33 +1,7 @@
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-
-// import './Testimonals.css';
-
-// // import required modules
-// import { Navigation } from 'swiper/modules';
-
-// export default function Testimonals() {
-//     return (
-//       <>
-//         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-//           <SwiperSlide>Slide 1</SwiperSlide>
-//           <SwiperSlide>Slide 2</SwiperSlide>
-//           <SwiperSlide>Slide 3</SwiperSlide>
-//           <SwiperSlide>Slide 4</SwiperSlide>
-//           <SwiperSlide>Slide 5</SwiperSlide>
-//           <SwiperSlide>Slide 6</SwiperSlide>
-//           <SwiperSlide>Slide 7</SwiperSlide>
-//           <SwiperSlide>Slide 8</SwiperSlide>
-//           <SwiperSlide>Slide 9</SwiperSlide>
-//         </Swiper>
-//       </>
-//     );
-//   }
-
 import React from "react";
 import "./Testimonals.css"; // You can create a separate CSS file for styling
 
-function Testimonals(props) {
+function Testimonals() {
   return (
     <>
       <div>
@@ -50,18 +24,14 @@ function Testimonals(props) {
               height="50px"
               width="50px"
             />
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
-            accusamus dolor molestias deserunt, numquam nobis quisquam natus
-            voluptatum provident reprehenderit expedita accusantium, dicta aut
-            earum optio doloribus necessitatibus doloremque veniam? Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Soluta necessitatibus
-            deserunt omnis nihil pariatur iste vel quam ratione quisquam nulla
-            modi dolores veniam vitae, molestiae mollitia, excepturi animi
-            minima consequatur?
+            I am very happy with my choice of school for Anshika. I feel proud as a father to see the emerging talents in my daughter. I would like to thank all the teachers for their hardwork & constant dedication to keep parents updated & informed during these challenging times. 
+Strong leadership is the foundation of a school's success & without the Sr. Principal, Mrs. Anmol Badjatia Ma'am it would not been possible.                  
+We feel proud & fortunate to have Anmol Ma'am as the Sr. Principal of the school.  Ma’am has balanced the school so well during these rapidly changing times.
+Thanks to "Little Jewels" for providing a great learning system to all the students.
           </p>
           <section className="parents-corner">
             <h2 className="parents-review">
-              <div className="border-style"></div>
+              {/* <div className="border-style"></div> */}
               <p className="parents-name">Rohit Sharma</p>
             </h2>
           </section>

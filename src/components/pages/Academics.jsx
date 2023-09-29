@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import AcademicsNav from './Academics_Main/AcademicsNav';
 
 export const Academics = () => {
   return (
-    <>
-      <h1>Academics</h1>
-    </>
+    <div>
+      <AcademicsNav />
+    </div>
   );
-};
+}

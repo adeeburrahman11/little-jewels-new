@@ -162,7 +162,7 @@ body {
   margin-top: 0.5rem;
 }
 
-button:hover {
+.program-button:hover {
   transform: scale(1.1);
   cursor: pointer;
 }

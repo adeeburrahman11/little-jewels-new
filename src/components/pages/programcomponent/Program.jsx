@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './Program.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -25,19 +24,9 @@ AOS.init({
 
 const App = () => {
 
-    const [isDialogOpen, setIsDialogOpen] = useState(false);
-
-    const openDialog = () => {
-        setIsDialogOpen(true);
-    };
-
-    const closeDialog = () => {
-        setIsDialogOpen(false);
-    };
-
     return (
         <div className='outer-container'>
-            <div className="header">
+            <div className="header" data-aos="slide-right" data-aos-once="false">
                 <h1>Programs</h1>
                 <div className="paragraph">
                 <p>Welcome to our Random Paragraph Generator! Our Generator uses cutting edge technology to create unique and informative paragraph on a wide range of topics .. </p>
@@ -76,8 +65,6 @@ const App = () => {
                     <button className='program-button' type="button"><a className='program-enquire_form' href='https://forms.gle/cCGiAVJvvatmPAv3A'>Enroll</a></button>
                 </div>
             {/* <button className='button-end' type='button'>Learn More</button> */}
-
-                {isDialogOpen && <Dialog onClose={closeDialog} />}
             </div>
             {/* <img className='image-13' src="../../../assetss/object1.png" alt="image not found" />
             <img className='image-23' src="../../../assetss/object2.png" alt="image not found" /> */}

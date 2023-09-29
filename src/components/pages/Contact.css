@@ -31,7 +31,7 @@
   
   .contact-card {
     flex: 1;
-    max-width: calc(50% - 20px); /* Adjust as needed for the number of cards per row */
+    max-width: calc(50% - 20px); 
     border: 2px solid #293162;
     background-color: #fff;
     border-radius: 8px;
@@ -64,6 +64,7 @@
     font-size: 1rem;
     line-height: 1.4;
     text-align: left;
+    font-family: "Dosis";
   }
   
   .apply-button1 {
@@ -74,6 +75,7 @@
     position: absolute;
     bottom: 1rem;
     right: 1rem;
+    cursor: pointer;
   }
 
   .apply-button2 {
@@ -84,6 +86,13 @@
     position: absolute;
     bottom: 1rem;
     right: 1rem;
+    cursor: pointer;
+  }
+
+  .apply-button1:hover, .apply-button2:hover{
+    background-color: whitesmoke;
+    color: #293162;
+    border: 3px solid #293162;
   }
   
   @media screen and (max-width: 768px) {
@@ -167,7 +176,7 @@
   }
   
   .close-button {
-    background-color: #ff0000; /* Change to your preferred color */
+    background-color: #48ff00; 
     color: #fff;
     padding: 5px 20px;
     border: none;
@@ -177,6 +186,12 @@
     position: absolute;
     bottom: 1rem;
     right: 1rem;
+  }
+
+  .close-button:hover{
+    background-color: whitesmoke;
+    color: #48ff00;
+    border: 3px solid #48ff00;
   }
   
 

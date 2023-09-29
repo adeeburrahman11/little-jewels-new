@@ -22,6 +22,7 @@
 .change {
   color: #f5a524;
   font-family: "Coiny";
+  font-size: 70px;
 }
 .box-img {
   flex: 1;
@@ -73,6 +74,9 @@
   }
 
   .main-txt p {
+    font-size: 35px;
+  }
+  .change {
     font-size: 35px;
   }
 

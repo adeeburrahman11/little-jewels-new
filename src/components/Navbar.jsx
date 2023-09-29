@@ -47,7 +47,8 @@ function Navbar() {
                 <Link to="/about/vision&mission">Vision & Mission</Link>
                 <Link to="/about/director-message">Director Message</Link>
                 <Link to="/about/management">Management</Link>
-                <Link to="/about/testimonials">Testimonials</Link>
+                <Link to="/about/teams">Team Little Jewels</Link>
+                {/* <Link to="/about/testimonials">Testimonials</Link> */}
               </div>
             )}
           </div>

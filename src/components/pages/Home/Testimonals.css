@@ -106,3 +106,14 @@
     margin-top: -5rem; /* Adjust as needed */
   }
 }
+
+@media (max-width: 480px) {
+  .testimonals-shadow {
+    max-width: 5%;
+    height: auto;
+    margin-left: 5px;
+  }
+  .parents-name {
+    font-size: 15px;
+  }
+}

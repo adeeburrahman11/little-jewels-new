@@ -3,7 +3,7 @@ import "./Badjate.css";
 
 class Badjate extends React.Component {
   openWebsite(url) {
-    window.open(url, "_blank"); // Open the website in a new tab/window
+    window.open(url, "_blank"); 
   }
 
   render() {

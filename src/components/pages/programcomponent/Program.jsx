@@ -26,7 +26,7 @@ const App = () => {
 
     return (
         <div className='outer-container'>
-            <div className="header" data-aos="slide-right" data-aos-once="false">
+            <div className="header" data-aos="slide-up" data-aos-once="false">
                 <h1>Programs</h1>
                 <div className="paragraph">
                 <p>Welcome to our Random Paragraph Generator! Our Generator uses cutting edge technology to create unique and informative paragraph on a wide range of topics .. </p>

@@ -28,7 +28,7 @@
   margin: 20px;
 }
 
-.card {
+.card_gallery {
   display: flex;
   justify-content: center;
   width: 500px;
@@ -142,7 +142,7 @@
   border-color: #f5d29e;
 }
 
-.card:hover .card-description {
+.card_gallery:hover .card-description {
   bottom: 0; 
 }
 
@@ -150,7 +150,7 @@
   .main-heading-gallery_title {
     font-size: 2rem;
   }
-  .card {
+  .card_gallery {
     flex: 0 0 calc(50% - 40px);
     width: 400px;
   }
@@ -178,7 +178,7 @@
   .main-heading-gallery_title {
     font-size: 2rem;
   }
-  .card {
+  .card_gallery {
     flex: 0 0 calc(100% - 40px);
     width: 300px;
   }
@@ -203,7 +203,7 @@
 }
 
 @media (max-width: 280px) {
-  .card {
+  .card_gallery {
     flex: 0 0 calc(100% - 40px);
     width: 250px;
   }

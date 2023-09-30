@@ -13,7 +13,7 @@ const Card = (props) => {
   };
 
   return (
-    <div className={`card ${isHovered ? 'hovered' : ''}`} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+    <div className={`card_gallery ${isHovered ? 'hovered' : ''}`} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
       <div className="card-content">
         <div className='card-header'>
           <div className="card-image-container ">

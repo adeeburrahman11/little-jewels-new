@@ -75,7 +75,7 @@ function Navbar() {
           <NavLink to="/academics">Academics</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Carrers</NavLink>
+          <NavLink to="/contact">Careers</NavLink>
         </li>
         <li>
           <NavLink to="/badjate-group">Badjate Group</NavLink>

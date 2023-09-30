@@ -63,7 +63,7 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert("Message sent successfully || Harshal will back you soon");
+          alert("Message sent successfully || Little Jweles will contact you soon");
 
           setForm({
             name: "",

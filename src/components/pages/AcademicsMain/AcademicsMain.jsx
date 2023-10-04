@@ -1,13 +1,12 @@
 import React from "react";
 import "./AcademicsMain.css";
-import Card from "../Gallery/Card";
 
 function AcademicsMain() {
   return (
     <>
       <div className="head">
         <h1>Academics & Beyond </h1>
-        <p className="shadow">Academics & Beyond</p>
+        {/* <p className="shadow">Academics & Beyond</p> */}
       </div>
       <div className="sec1">
         <img src="images\Academics_Images\1stPic.jpg" alt="img1" />

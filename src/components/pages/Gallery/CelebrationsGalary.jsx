@@ -9,7 +9,7 @@ function CelebrationsGallery() {
   let buttonTitles = [
     { id: "cb1", title: "Childrens Day Celebration" },
     { id: "cb2", title: "Diwali Celebration" },
-    { id: "cb3", title: "Dushera Celebration" },
+    { id: "cb3", title: "Dusshera Celebration" },
     { id: "cb6", title: "Ganesh Chaturthi Celebration" },
     { id: "cb5", title: "Grand Parent's Day Celebration" },
     { id: "cb4", title: "Independence Day Celebration" },

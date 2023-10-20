@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <nav>
       <Link to="/" className="title">
-        <img className="lj-logo" src="/src/assets/img/lj-logo.png" />
+        <img className="lj-logo" src="/Home_Images/lj-logo-new.png" />
       </Link>
       <div className={"menu"} onClick={handleClick}>
         <i

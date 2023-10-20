@@ -8,7 +8,7 @@ export default function Director() {
         {/* <p className="shadow-Director">Director's Message</p> */}
       </div>
       <div className="sec1-Director">
-        <img src="/images/directors-message.jpg" alt="img1" />
+        <img src="/About_Us_Images/Director_Images/directors-message.jpg" alt="img1" />
         <hr />
         <p>
           "From humble beginnings, come great things!"

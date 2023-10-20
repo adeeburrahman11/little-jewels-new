@@ -6,63 +6,58 @@ function AchievementsGallery() {
   let imageUrl = [
     {
       id: "a1",
-      path: "/images/achievements/(Sr.No. A) IMPACT COMPETITION (ACT PRESENTATION).jpg",
+      path: "/Gallery_Images/Achievements_Images/ag1.jpeg",
       name: "Impact Competition (Act Presentation)",
     },
     {
       id: "a2",
-      path: "/images/achievements/(Sr.No. B & C) SANDHAMAKA SEASON 1 COMPETITION (DANCE & FANCY DRESS).jpg",
+      path: "/Gallery_Images/Achievements_Images/ag2.jpg",
       name: "Sandhamaka Season 1 Competition (Dance & Fancy Dress)",
     },
     {
       id: "a3",
-      path: "/images/achievements/(Sr.No. D) OPEN INVITATIONAL ROLLER SKATING CHAMPIONSHIP 2022.jpeg",
-      name: "Open Invitational Roller skating Championship 2022",
-    },
-    {
-      id: "a4",
-      path: "/images/achievements/(Sr.No. A) IMPACT COMPETITION (ACT PRESENTATION).jpg",
+      path: "/Gallery_Images/Achievements_Images/ag3.jpeg",
       name: "Impact Competition (Act Presentation)",
     },
     {
+      id: "a4",
+      path: "/Gallery_Images/Achievements_Images/ag4.jpg",
+      name: "Roller Skating Chapionship 2022",
+    },
+    {
       id: "a5",
-      path: "/images/achievements/(Sr.No. E) OPEN DISTRICT ROLLER SKATING CHAMPIONSHIP 2022.jpeg",
+      path: "/Gallery_Images/Achievements_Images/ag5.jpg",
       name: "Open District Roller Skating Chapionship 2022",
     },
     {
       id: "a6",
-      path: "/images/achievements/(Sr.No. F) ROLLER SKATING CHAMPIONSHIP 2022.jpg",
-      name: "Roller Skating Chapionship 2022",
+      path: "/Gallery_Images/Achievements_Images/ag6.jpg",
+      name: "Impact Competition (Act Presentation)",
     },
     {
       id: "a7",
-      path: "/images/achievements/(Sr.No. G) INTER-CLUB SKATING CHAMPIONSHIP 2022.jpg",
+      path: "/Gallery_Images/Achievements_Images/ag7.jpg",
       name: "Inter-Club Skating Championship 2022",
     },
     {
       id: "a8",
-      path: "/images/achievements/(Sr.No. H) INTER-CLUB SKATING CHAMPIONSHIP 2022.jpg",
+      path: "/Gallery_Images/Achievements_Images/ag8.jpg",
       name: "Inter-Club Skating Chapionship 2022",
     },
     {
       id: "a9",
-      path: "/images/achievements/achievements1.JPG",
+      path: "/Gallery_Images/Achievements_Images/ag9.jpg",
       name: "Inter Branch Skating",
     },
     {
       id: "a10",
-      path: "/images/achievements/achievements2.JPG",
+      path: "/Gallery_Images/Achievements_Images/ag10.jpg",
       name: "Inter School Colouring Competition",
     },
     {
       id: "a11",
-      path: "/images/achievements/achievements3.jpeg",
-      name: "Impact Competition (Act Presentation)",
-    },
-    {
-      id: "a12",
-      path: "/images/achievements/OUR VISION.jpg",
-      name: "zip Zap Zoom Skating Competition Winner 2022",
+      path: "/Gallery_Images/Achievements_Images/ag11.jpg",
+      name: "Open Invitational Roller skating Championship 2022",
     },
   ];
 

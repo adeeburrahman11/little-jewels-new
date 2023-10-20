@@ -6,18 +6,53 @@ function MediaCoverageGallery() {
   const imageUrl = [
     {
       id: "m1",
-      path: "/images/media-coverage/media1.jpg",
+      path: "/Gallery_Images/Media_Coverage_Images/mci1.jpeg",
       name: "Winners of Intra-Class Hindi Poem Recitation Competition",
     },
     {
       id: "m2",
-      path: "/images/media-coverage/media2.jpg",
-      name: "Winners of Inter School Colouring Competition",
+      path: "/Gallery_Images/Media_Coverage_Images/mci2.jpeg",
+      name: "Winners of Inter School Skating Competition",
     },
     {
       id: "m3",
-      path: "/images/media-coverage/media3.jpg",
+      path: "/Gallery_Images/Media_Coverage_Images/mci3.jpeg",
+      name: "Winners of the Skating Competition",
+    },
+    {
+      id: "m4",
+      path: "/Gallery_Images/Media_Coverage_Images/mci4.jpeg",
       name: "Winners of the Poem's Recitation Competition",
+    },
+    {
+      id: "m5",
+      path: "/Gallery_Images/Media_Coverage_Images/mci5.jpeg",
+      name: "Annual Flagship Event",
+    },
+    {
+      id: "m6",
+      path: "/Gallery_Images/Media_Coverage_Images/mci6.jpeg",
+      name: "Annual Flagship Event",
+    },
+    {
+      id: "m7",
+      path: "/Gallery_Images/Media_Coverage_Images/mci7.jpeg",
+      name: "Winners of the Poem's Recitation Competition",
+    },
+    {
+      id: "m8",
+      path: "/Gallery_Images/Media_Coverage_Images/mci8.jpeg",
+      name: "Grandparent's Day Celebrations",
+    },
+    {
+      id: "m9",
+      path: "/Gallery_Images/Media_Coverage_Images/mci9.jpeg",
+      name: "Fancy Dress Competition",
+    },
+    {
+      id: "m10",
+      path: "/Gallery_Images/Media_Coverage_Images/mci10.jpeg",
+      name: "Little Jewels Admissions",
     },
   ];
 

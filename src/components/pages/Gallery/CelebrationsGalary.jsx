@@ -17,47 +17,48 @@ function CelebrationsGallery() {
     { id: "cb8", title: "Pola Celebration" },
     { id: "cb9", title: "Raksha Bandhan Celebration" },
     { id: "cb10", title: "Chritmas Day Celebration" },
+    { id: "cb10", title: "Colour Day Celebrations" },
   ];
 
   let imageUrl = [
     {
       id: "c1",
-      path: "/images/celebrations/diwali1.jpg",
+      path: "/Gallery_Images/Celebrations_Images/dc1.jpg",
       name: "Diwali Celebration",
     },
     {
       id: "c2",
-      path: "/images/celebrations/diwali2.jpg",
+      path: "/Gallery_Images/Celebrations_Images/dc2.jpg",
       name: "Diwali Celebration",
     },
     {
       id: "c3",
-      path: "/images/celebrations/childrens day (6).jpg",
+      path: "/Gallery_Images/Celebrations_Images/cdc1.jpg",
       name: "Childrens Day Celebration",
     },
     {
       id: "c4",
-      path: "/images/celebrations/childrens day (23).jpg",
+      path: "/Gallery_Images/Celebrations_Images/cdc2.JPG",
       name: "Childrens Day Celebration",
     },
     {
       id: "c5",
-      path: "/images/celebrations/dussehra (3).jpeg",
+      path: "/Gallery_Images/Celebrations_Images/dussherac1.jpeg",
       name: "Dushera Celebration",
     },
     {
       id: "c6",
-      path: "/images/celebrations/dussehra (12).jpeg",
+      path: "/Gallery_Images/Celebrations_Images/dussherac2.jpeg",
       name: "Dushera Celebration",
     },
     {
       id: "c7",
-      path: "/images/celebrations/ganesh1.jpeg",
+      path: "/Gallery_Images/Celebrations_Images/gcc1.jpg",
       name: "Ganesh Chaturthi Celebration",
     },
     {
       id: "c8",
-      path: "/images/celebrations/ganesh2.jpeg",
+      path: "/Gallery_Images/Celebrations_Images/gcc2.jpg",
       name: "Ganesh Chaturthi Celebration",
     },
     {
@@ -72,72 +73,72 @@ function CelebrationsGallery() {
     },
     {
       id: "c11",
-      path: "/images/celebrations/independence1.jpeg",
+      path: "/Gallery_Images/Celebrations_Images/idc1.jpeg",
       name: "Independence Day Celebration",
     },
     {
       id: "c12",
-      path: "/images/celebrations/independence2.jpg",
+      path: "/Gallery_Images/Celebrations_Images/idc2.jpeg",
       name: "Independence Day Celebration",
     },
     {
       id: "c13",
-      path: "/images/celebrations/teacher day (1).jpeg",
+      path: "/Gallery_Images/Celebrations_Images/tdc1.JPG",
       name: "Teacher's Day Celebration",
     },
     {
       id: "c14",
-      path: "/images/celebrations/teacher day (14).jpeg",
+      path: "/Gallery_Images/Celebrations_Images/tdc2.jpg",
       name: "Teacher's Day Celebration",
     },
     {
       id: "c15",
-      path: "/images/celebrations/pola (4).jpeg",
+      path: "/Gallery_Images/Celebrations_Images/pc1.jpg",
       name: "Pola Celebration",
     },
     {
       id: "c16",
-      path: "/images/celebrations/pola (9).jpeg",
+      path: "/Gallery_Images/Celebrations_Images/pc2.jpg",
       name: "Pola Celebration",
     },
     {
       id: "c17",
-      path: "/images/celebrations/raksha-bandhan1.jpeg",
+      path: "/Gallery_Images/Celebrations_Images/rc1.jpeg",
       name: "Raksha Bandhan Celebration",
     },
     {
       id: "c18",
-      path: "/images/celebrations/raksha-bandhan2.jpg",
+      path: "/Gallery_Images/Celebrations_Images/rc2.jpeg",
       name: "Raksha Bandhan Celebration",
     },
     {
       id: "c19",
-      path: "/images/celebrations/xmas-1.jpg",
+      path: "/Gallery_Images/Celebrations_Images/chritmasdc1.JPG",
       name: "Chritmas Day Celebration",
     },
     {
       id: "c20",
-      path: "/images/celebrations/xmas-2.jpg",
+      path: "/Gallery_Images/Celebrations_Images/chritmasdc2.JPG",
       name: "Chritmas Day Celebration",
     },
     {
       id: "c21",
-      path: "/images/celebrations/IMG_20221021_092046__01.jpg",
+      path: "/Gallery_Images/Celebrations_Images/dc3.jpg",
       name: "Diwali Celebration",
     },
     {
       id: "c3",
-      path: "/images/celebrations/IMG_20221114_092235.jpg",
+      path: "/Gallery_Images/Celebrations_Images/cdc3.jpg",
       name: "Childrens Day Celebration",
     },
     {
       id: "c5",
-      path: "/images/celebrations/WhatsApp Image 2022-10-04 at 12.55.13.jpeg",
+      path: "/Gallery_Images/Celebrations_Images/dussherac3.jpeg",
       name: "Dushera Celebration",
     },
     {
       id: "c7",
-      path: "/images/celebrations/ganesh1.jpeg",
+      path: "/Gallery_Images/Celebrations_Images/gcc3.jpg",
       name: "Ganesh Chaturthi Celebration",
     },
     {
@@ -147,28 +148,43 @@ function CelebrationsGallery() {
     },
     {
       id: "c11",
-      path: "/images/celebrations/independence1.jpeg",
+      path: "/Gallery_Images/Celebrations_Images/idc3.jpeg",
       name: "Independence Day Celebration",
     },
     {
       id: "c13",
-      path: "/images/celebrations/17..jpeg",
+      path: "/Gallery_Images/Celebrations_Images/tdc3.JPG",
       name: "Teacher's Day Celebration",
     },
     {
       id: "c15",
-      path: "/images/celebrations/NUR P.jpeg",
+      path: "/Gallery_Images/Celebrations_Images/pc3.jpg",
       name: "Pola Celebration",
     },
     {
       id: "c17",
-      path: "/images/celebrations/Raksha Bandhan.jpg",
+      path: "/Gallery_Images/Celebrations_Images/rc3.jpeg",
       name: "Raksha Bandhan Celebration",
     },
     {
       id: "c19",
-      path: "/images/celebrations/xmas-1.jpg",
+      path: "/Gallery_Images/Celebrations_Images/chritmasdc3.JPG",
       name: "Chritmas Day Celebration",
+    },
+    {
+      id: "c20",
+      path: "/Gallery_Images/Celebrations_Images/colordc1.jpeg",
+      name: "Colour Day Celebrations",
+    },
+    {
+      id: "c21",
+      path: "/Gallery_Images/Celebrations_Images/colordc2.jpeg",
+      name: "Colour Day Celebrations",
+    },
+    {
+      id: "c22",
+      path: "/Gallery_Images/Celebrations_Images/colordc3.jpeg",
+      name: "Colour Day Celebrations",
     },
   ];
 

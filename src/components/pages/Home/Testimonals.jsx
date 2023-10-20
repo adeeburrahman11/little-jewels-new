@@ -29,7 +29,7 @@ function Testimonals() {
         <h1 className="main-heading__testimonals">Testimonals</h1>
         <img
           className="testimonals-shadow"
-          src="/src/assets/img/icons8-quote-left-480.png"
+          src="/About_Us_Images/Testimonials_Images/icons8-quote-left-480.png"
           alt="quotes"
           height="80px"
           width="80px"
@@ -40,7 +40,7 @@ function Testimonals() {
           <p>
             <img
               className="quotes-image"
-              src="/src/assets/img/icons8-quote-left-512.png"
+              src="/About_Us_Images/Testimonials_Images/icons8-quote-left-512.png"
               alt="quotes"
               height="50px"
               width="50px"

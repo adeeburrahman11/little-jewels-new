@@ -28,7 +28,7 @@ export const HomeAbout = () => {
       <h1 className="about-heading">About Us</h1>
       <div className="about-container" data-aos="slide-up" data-aos-once="false" >
         <div className="image-container" >
-          <img src="/src/assets/img/pexels-rdne-stock-project-8363102.jpg" />
+          <img src="/Home_Images/au1.JPG" />
         </div>
         <div className="text-container">
           <p>
@@ -43,7 +43,7 @@ export const HomeAbout = () => {
       </div>
       <div className="about-container1" data-aos="slide-up" data-aos-once="false">
         <div className="image-container1">
-          <img src="/src/assets/img/pexels-rdne-stock-project-8363102.jpg" />
+          <img src="/Home_Images/au2.JPG" />
         </div>
         <div className="text-container1">
           <p>

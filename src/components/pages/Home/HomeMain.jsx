@@ -53,7 +53,7 @@ export const HomeMain = () => {
         </div>
         <div className="box-img" data-aos="slide-left">
           <img
-            src="/src/assets/img/3d-casual-life-couple-walks-with-baby.png"
+            src="/Home_Images/3d-casual-life-couple-walks-with-baby.png"
             alt=""
             width={"200px"}
           />

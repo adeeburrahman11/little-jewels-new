@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-left">
           <img
             className="footer-img"
-            src="/src/assets/img/lj-logo.png"
+            src="/Home_Images/lj-logo-new.png"
             alt="Logo"
           />
         </div>
@@ -67,17 +67,17 @@ function Footer() {
         <div className="badjate-links">
           <a href="https://www.badjategroup.com/" target="_blank">
             <img
-              src="/src/assets/img/badjate-new.jpg"
+              src="/Home_Images/badjate-new.jpg"
               width="300px"
               className="img-fluid"
             />
           </a>
           <a href="https://www.jaininternationalnagpur.edu.in/" target="_blank">
-            <img src="/src/assets/img/jis-new-logo.png" className="img-fluid" />
+            <img src="/Home_Images/jis-new-logo.png" className="img-fluid" />
           </a>
           <a href="https://www.sbjit.edu.in/" target="_blank">
             <img
-              src="/src/assets/img/sbjain-new-logo.png"
+              src="/Home_Images/sbjain-new-logo.png"
               className="img-fluid"
             />
           </a>

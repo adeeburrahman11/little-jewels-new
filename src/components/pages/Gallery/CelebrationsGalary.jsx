@@ -63,12 +63,12 @@ function CelebrationsGallery() {
     },
     {
       id: "c9",
-      path: "/images/celebrations/grandparent1.jpg",
+      path: "/Gallery_Images/Celebrations_Images/gdc1.jpg",
       name: "Grand Parent's Day Celebration",
     },
     {
       id: "c10",
-      path: "/images/celebrations/grandparent2.jpg",
+      path: "/Gallery_Images/Celebrations_Images/gdc2.jpg",
       name: "Grand Parent's Day Celebration",
     },
     {
@@ -143,7 +143,7 @@ function CelebrationsGallery() {
     },
     {
       id: "c9",
-      path: "/images/celebrations/WhatsApp Image 2022-09-26 at 15.52.47.jpeg",
+      path: "/Gallery_Images/Celebrations_Images/gdc3.jpeg",
       name: "Grand Parent's Day Celebration",
     },
     {

@@ -1,16 +1,15 @@
 import React from "react";
 import "./AcademicsMain.css";
-import Card from "../Gallery/Card";
 
 function AcademicsMain() {
   return (
     <>
       <div className="head">
         <h1>Academics & Beyond </h1>
-        <p className="shadow">Academics & Beyond</p>
+        {/* <p className="shadow">Academics & Beyond</p> */}
       </div>
       <div className="sec1">
-        <img src="images\Academics_Images\1stPic.jpg" alt="img1" />
+        <img src="/Academics_Images/1stPic.jpg" alt="img1" />
         <h2>Our Ideology</h2>
         <hr />
         <p>
@@ -21,7 +20,7 @@ function AcademicsMain() {
           and friendly all the while providing a secure and happy learning
           environment for learning and growing.
         </p>
-        <img src="images\Academics_Images\2ndPic.jpg" alt="" />
+        <img src="\Academics_Images\2ndPic.jpg" alt="" />
         <p>
           In this manner, we strive to create a joyful, stress free and
           effective learning environment for the child. For us each child is
@@ -32,10 +31,46 @@ function AcademicsMain() {
       </div>
       <div className="sec2">
         <div className="wrapper">
+        <div className="card-container">
+            <div className="card_academics">
+              <img
+                src="\Academics_Images\rle1.JPG"
+                alt="Card Image 1"
+              />
+              <div className="overlay">
+                <h2 className="overlay__title">Multi Level</h2>
+                <p className="overlay__description">
+                  Our multilevel learning strategies and classrooms ensure that
+                  no child becomes bored from a lack of challenge or disengaged
+                  because it is difficult . We strive to acknowledge and work
+                  with diverse learning styles and pace of children in the
+                  Foundational Years.
+                </p>
+              </div>
+            </div>
+
+            <div className="card_academics">
+              <img
+                src="\Academics_Images\rle2.JPG"
+                alt="Card Image 2"
+              />
+              <div className="overlay">
+                <h2 className="overlay__title">Knowledge Telling Integrated Pedagogy</h2>
+                <p className="overlay__description">
+                  We use real objects for telling as a pedagogical tool to open the minds
+                  of the children to cultural diversity and to fuel their power
+                  of imagination and creativity. Through story telling we weave
+                  together concepts from various subjects, values, life lessons
+                  while creating empathy and universal understanding through the
+                  experiences of others.
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="card-container">
             <div className="card_academics">
               <img
-                src="images\Academics_Images\TEACHER LEARNING.JPG"
+                src="\Academics_Images\TEACHER LEARNING.JPG"
                 alt="Card Image 1"
               />
               <div className="overlay">
@@ -53,7 +88,7 @@ function AcademicsMain() {
 
             <div className="card_academics">
               <img
-                src="images\Academics_Images\trasndisciplinary.JPG"
+                src="\Academics_Images\trasndisciplinary.JPG"
                 alt="Card Image 2"
               />
               <div className="overlay">
@@ -71,7 +106,7 @@ function AcademicsMain() {
           <div className="card-container">
             <div className="card_academics">
               <img
-                src="images\Academics_Images\MULTI LEVEL.JPG"
+                src="\Academics_Images\MULTI LEVEL.JPG"
                 alt="Card Image 1"
               />
               <div className="overlay">
@@ -88,7 +123,7 @@ function AcademicsMain() {
 
             <div className="card_academics">
               <img
-                src="images\Academics_Images\STORY TELLING.JPG"
+                src="\Academics_Images\STORY TELLING.JPG"
                 alt="Card Image 2"
               />
               <div className="overlay">
@@ -106,7 +141,7 @@ function AcademicsMain() {
           </div>
           <div className="card-container">
             <div className="card_academics">
-              <img src="images\Academics_Images\ICT.JPG" alt="Card Image 1" />
+              <img src="\Academics_Images\ICT.JPG" alt="Card Image 1" />
               <div className="overlay">
                 <h2 className="overlay__title">ICT Integrated Pedagogy</h2>
                 <p className="overlay__description">
@@ -123,7 +158,7 @@ function AcademicsMain() {
 
             <div className="card_academics">
               <img
-                src="images\Academics_Images\VALUE EDUCTAION.JPG"
+                src="\Academics_Images\VALUE EDUCTAION.JPG"
                 alt="Card Image 2"
               />
               <div className="overlay">
@@ -140,7 +175,7 @@ function AcademicsMain() {
           <div className="card-container">
             <div className="card_academics">
               <img
-                src="images\Academics_Images\MONTESSORI.JPG"
+                src="\Academics_Images\MONTESSORI.JPG"
                 alt="Card Image 1"
               />
               <div className="overlay">
@@ -157,7 +192,7 @@ function AcademicsMain() {
 
             <div className="card_academics">
               <img
-                src="images\Academics_Images\Assesment.JPG"
+                src="\Academics_Images\Assesment.JPG"
                 alt="Card Image 2"
               />
               <div className="overlay">

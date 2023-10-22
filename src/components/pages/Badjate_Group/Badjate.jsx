@@ -32,7 +32,7 @@ class Badjate extends React.Component {
           </div>
           <div className="image-container-Badjate">
             <img
-              src="/images/badjate.jpg"
+              src="/Badjate_Group_Images/badjate.jpg"
               alt="Badjate Group"
               onClick={() => this.openWebsite("https://www.badjategroup.com/")}
               className="image-Badjate"
@@ -49,7 +49,7 @@ class Badjate extends React.Component {
           <div className="education-Badjate">
           <div className="images-container-Badjate">
             <img
-              src="/images/logo.png"
+              src="/Badjate_Group_Images/logo.png"
               alt="Badjate Group-Logo"
               onClick={() =>
                 this.openWebsite("https://littlejewelsnagpur.in/group.php#")
@@ -62,7 +62,7 @@ class Badjate extends React.Component {
           </div>
           <div className="images-container-Badjate">
             <img
-              src="/images/jis.png"
+              src="/Badjate_Group_Images/jis.png"
               alt="Badjate Group"
               onClick={() =>
                 this.openWebsite("https://www.jaininternationalnagpur.edu.in/")
@@ -75,7 +75,7 @@ class Badjate extends React.Component {
           </div>
           <div className="images-container-Badjate">
             <img
-              src="/images/sbjain-alt.png"
+              src="/Badjate_Group_Images/sbjain-alt.png"
               alt="Badjate Group"
               onClick={() => this.openWebsite("https://www.sbjit.edu.in/")}
               className="images-Badjate"

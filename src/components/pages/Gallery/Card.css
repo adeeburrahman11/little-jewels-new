@@ -10,7 +10,7 @@
   margin: 0 1rem;
   padding: 2rem 0;
   justify-content: center;
-  background: url("/images/sammy-line-swirls-for-background.png");
+  background: url("/public/Gallery_Images/sammy-line-swirls-for-background.png");
   background-size: 50%;
   flex-wrap: wrap;
 }
@@ -73,8 +73,8 @@
 
 .card-image {
   width: 100%;
-  height: 350px;
-  object-fit: cover;
+  height: 380px;
+  object-fit: fill;
   border-radius: 10px;
   transform: translateY(0);
   transition: transform 0.3s;

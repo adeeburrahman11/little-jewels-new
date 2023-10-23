@@ -17,7 +17,7 @@ const VisionMission = () => {
             individual learning styles.
           </p>
           <br />
-          <img src="/images/OURVISION.jpg" alt="Vision" />
+          <img src="/About_Us_Images/Vision_Mission_Images/vision.JPG" alt="Vision" />
         </section>
         <section className="mission">
           <h2>Our Mission</h2>
@@ -27,7 +27,7 @@ const VisionMission = () => {
             encompasses all aspects of growth.
           </p>
           <br />
-          <img src="/images/mission.jfif" alt="Mission" />
+          <img src="/About_Us_Images/Vision_Mission_Images/mission.JPG" alt="Mission" />
         </section>
       </main>
     </div>

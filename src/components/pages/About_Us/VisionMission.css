@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: end;
-  background: url("/images/sammy-line-swirls-for-background.png");
+  background: url("/public/About_Us_Images/sammy-line-swirls-for-background.png");
   background-size: 40%;
   margin: 2rem;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .App-main-VisionMission {
-  background: url("/images/sammy-line-swirls-for-background.png");
+  background: url("/public/About_Us_Images/sammy-line-swirls-for-background.png");
   background-size: 50%;
   flex-wrap: wrap;
   display: flex;

@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
-    background: url("/images/sammy-line-swirls-for-background.png");
+    background: url("/public/About_Us_Images/sammy-line-swirls-for-background.png");
     background-size: 30%;
     margin: 2rem;
 }
@@ -42,7 +42,7 @@ body {
 
 .sec1-Director {
     text-align: center;
-    background: url("/images/sammy-line-swirls-for-background.png");
+    background: url("/public/About_Us_Images/sammy-line-swirls-for-background.png");
     background-size: 50%;
     flex-wrap: wrap;
     background-position: center;

@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import {Home, Academics, BadjateGroup } from "./components/pages";
+import { Home, Academics, BadjateGroup } from "./components/pages";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 import VisionMission from "./components/pages/About_Us/VisionMission";
-import Teams from"./components/pages/About_Us/Teams";
+import Teams from "./components/pages/About_Us/Teams";
 import Director from "./components/pages/About_Us/Director";
 import Management from "./components/pages/About_Us/Management";
 import TestimonialsMain from "./components/pages/About_Us/TestimonialsMain";
@@ -12,8 +12,8 @@ import EventGallery from "./components/pages/Gallery/EventGallery";
 import CelebrationsGalary from "./components/pages/Gallery/CelebrationsGalary";
 import AchievementsGallery from "./components/pages/Gallery/AchievementsGallery";
 import MediaCoverageGallery from "./components/pages/Gallery/MediaCoverageGallery";
-import Program from "./components/pages/programcomponent/Program"
-import './App.css';
+import Program from "./components/pages/programcomponent/Program";
+import "./App.css";
 
 function App() {
   return (

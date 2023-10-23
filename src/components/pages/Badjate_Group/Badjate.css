@@ -33,7 +33,7 @@
     align-items: center;
     text-align: center;
     margin: 1rem;
-    background: url("/images/sammy-line-swirls-for-background.png");
+    
     background-size: 40%;
 }
 
@@ -58,14 +58,13 @@
 .content-Badjate p {
     margin: 1rem;
     font-size: 1.5rem;
-    background: url("/images/sammy-line-swirls-for-background.png");
+    
     display: flex;
     background-size: 40%;
 }
 
 .education-Badjate {
-    background: url("/images/sammy-line-swirls-for-background.png");
-    display: flex;
+    
     justify-content: center;
     align-items: flex-end;
     background-size: 40%;

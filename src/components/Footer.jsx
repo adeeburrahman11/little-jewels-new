@@ -76,10 +76,7 @@ function Footer() {
             <img src="/Home_Images/jis-new-logo.png" className="img-fluid" />
           </a>
           <a href="https://www.sbjit.edu.in/" target="_blank">
-            <img
-              src="/Home_Images/sbjain-new-logo.png"
-              className="img-fluid"
-            />
+            <img src="/Home_Images/sbjain-new-logo.png" className="img-fluid" />
           </a>
         </div>
       </div>

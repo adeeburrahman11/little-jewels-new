@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
-
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -14,7 +13,7 @@ const Contact = () => {
     dob: "",
     city: "",
     file: null,
-  })
+  });
 
   const handleChange = (e) => {
     const { target } = e;
@@ -32,7 +31,6 @@ const Contact = () => {
       });
     }
   };
-
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -56,14 +54,16 @@ const Contact = () => {
           exp: form.exp,
           location: form.location,
           dob: form.dob,
-          city : form.city,
-          file: form.file
+          city: form.city,
+          file: form.file,
         },
         "veuW8ypXzNU4cSONL"
       )
       .then(
         () => {
-          alert("Message sent successfully || Little Jweles will contact you soon");
+          alert(
+            "Message sent successfully || Little Jweles will contact you soon"
+          );
 
           setForm({
             name: "",
@@ -81,7 +81,7 @@ const Contact = () => {
           alert("From your side it is wrong check it again");
         }
       );
-  }
+  };
 
   const [showForm1, setShowForm1] = useState(false);
   const [showForm2, setShowForm2] = useState(false);
@@ -97,7 +97,7 @@ const Contact = () => {
   return (
     <Fragment>
       <div className="contact-container">
-        <h1>Careers</h1>
+        <h1>CAREERS</h1>
         <div className="contact-card-container">
           <div className="contact-card">
             <div className="heading">
@@ -106,32 +106,81 @@ const Contact = () => {
             {showForm1 ? (
               <div className="apply-form">
                 <h2>Apply for Admission Counselor</h2>
-                <form ref={formRef}
-                  onSubmit={handleSubmit}>
+                <form ref={formRef} onSubmit={handleSubmit}>
                   <div className="form-group">
-                    <input type="text" placeholder="Name" name="name" value={form.name} onChange={handleChange} />
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      name="name"
+                      value={form.name}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div className="form-group">
-                    <input type="text" placeholder="Phone Number" name="number" value={form.number} onChange={handleChange} />
+                    <input
+                      type="text"
+                      placeholder="Phone Number"
+                      name="number"
+                      value={form.number}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div className="form-group">
-                    <input type="email" placeholder="Email" name="email" value={form.email} onChange={handleChange} />
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      name="email"
+                      value={form.email}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div className="form-group">
-                    <input type="text" placeholder="Total Experience" name="exp" value={form.exp} onChange={handleChange} />
+                    <input
+                      type="text"
+                      placeholder="Total Experience"
+                      name="exp"
+                      value={form.exp}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div className="form-group">
-                    <input type="text" placeholder="Current Location" name="location" value={form.location} onChange={handleChange} />
+                    <input
+                      type="text"
+                      placeholder="Current Location"
+                      name="location"
+                      value={form.location}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div className="form-group">
-                    <input type="date" placeholder="DOB" name="dob" value={form.dob} onChange={handleChange} />
+                    <input
+                      type="date"
+                      placeholder="DOB"
+                      name="dob"
+                      value={form.dob}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div className="form-group">
-                    <input type="text" placeholder="City" name="city" value={form.city} onChange={handleChange} />
+                    <input
+                      type="text"
+                      placeholder="City"
+                      name="city"
+                      value={form.city}
+                      onChange={handleChange}
+                    />
                   </div>
                   <div className="form-group">
-                    <input type="file" id="resume" accept=".pdf, .doc, .docx" name="file" onChange={handleChange} />
-                    <label htmlFor="resume" className="file-input-label">Upload Resume</label>
+                    <input
+                      type="file"
+                      id="resume"
+                      accept=".pdf, .doc, .docx"
+                      name="file"
+                      onChange={handleChange}
+                    />
+                    <label htmlFor="resume" className="file-input-label">
+                      Upload Resume
+                    </label>
                   </div>
 
                   <button type="submit">Submit</button>
@@ -143,12 +192,17 @@ const Contact = () => {
             ) : (
               <>
                 <ul className="points">
-                  <li>Graduate/Post Graduate with a good command over English and Computer Knowledge.</li>
+                  <li>
+                    Graduate/Post Graduate with a good command over English and
+                    Computer Knowledge.
+                  </li>
                   <li>Having experience in the same will be preferred.</li>
                   <li>Only Female preferred.</li>
                   <li>Handling Admission inquiries.</li>
                   <li>Counseling parents w.r.t admissions.</li>
-                  <li>Reporting to the management and principal w.r.t admissions.</li>
+                  <li>
+                    Reporting to the management and principal w.r.t admissions.
+                  </li>
                   <li>Planning & Implementing marketing strategies.</li>
                 </ul>
                 <button onClick={toggleForm1} className="apply-button1">
@@ -188,7 +242,9 @@ const Contact = () => {
                   </div>
                   <div className="form-group">
                     <input type="file" id="resume" accept=".pdf, .doc, .docx" />
-                    <label htmlFor="resume" className="file-input-label">Upload Resume</label>
+                    <label htmlFor="resume" className="file-input-label">
+                      Upload Resume
+                    </label>
                   </div>
                   <button type="submit">Submit</button>
                 </form>
@@ -200,7 +256,10 @@ const Contact = () => {
               <>
                 <ul className="points">
                   <li>Education Qualification: Graduate</li>
-                  <li>Experience: 2-3 years in Administration (Preferably in Educational Institute)</li>
+                  <li>
+                    Experience: 2-3 years in Administration (Preferably in
+                    Educational Institute)
+                  </li>
                   <li>All Admin related tasks of the School.</li>
                   <li>Housekeeping and Upkeep In-charge.</li>
                   <li>Mess In-charge.</li>

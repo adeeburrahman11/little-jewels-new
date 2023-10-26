@@ -28,7 +28,7 @@
   flex: 1;
   margin-top: 1%;
   width: 50%;
-  background-image: url("/Gallery_Images/sammy-line-swirls-for-background.png");
+  background-image: url("/Home_Images/sammy-line-swirls-for-background.png");
   background-size: 100%;
 }
 .box-img img {
@@ -36,7 +36,7 @@
 }
 
 .btns {
-  background-image: url("/Gallery_Images/sammy-line-swirls-for-background.png");
+  background-image: url("/Home_Images/sammy-line-swirls-for-background.png");
   background-size: 100%;
   width: 100%;
 }

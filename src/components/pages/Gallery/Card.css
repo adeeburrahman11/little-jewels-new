@@ -10,7 +10,7 @@
   margin: 0 1rem;
   padding: 2rem 0;
   justify-content: center;
-  background: url("/public/Gallery_Images/sammy-line-swirls-for-background.png");
+  background: url("/Gallery_Images/sammy-line-swirls-for-background.png");
   background-size: 50%;
   flex-wrap: wrap;
 }

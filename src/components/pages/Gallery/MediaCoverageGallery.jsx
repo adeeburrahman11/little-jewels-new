@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./Card.css";
-import Card from "./Card";
+import CardACM from "./CardACM";
 
 function MediaCoverageGallery() {
   const imageUrl = [
@@ -81,11 +81,11 @@ function MediaCoverageGallery() {
         <h1 className="main-heading-gallery_title">Media Coverage Gallery</h1>
         <div className="card-container">
           {imageUrl.map((image, index) => (
-            <Card
+            <CardACM
               key={index}
               path={image.path}
               name={image.name}
-              googlePictures={googlePictures}
+              // googlePictures={googlePictures}
             />
           ))}
         </div>

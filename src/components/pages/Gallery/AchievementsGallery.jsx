@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./Card.css";
-import Card from "./Card";
+import CardACM from "./CardACM";
 
 function AchievementsGallery() {
   let imageUrl = [
@@ -131,7 +131,7 @@ function AchievementsGallery() {
         <h1 className="main-heading-gallery_title">Achievements Gallery</h1>
         <div className="card-container">
           {imageUrl.map((image, index) => (
-            <Card
+            <CardACM
               key={index}
               path={image.path}
               name={image.name}

@@ -26,25 +26,30 @@ function CelebrationsGallery() {
       path: "/Gallery_Images/Celebrations_Images/dc1.jpg",
       name: "Diwali Celebration",
     },
-    {
-      id: "c2",
-      path: "/Gallery_Images/Celebrations_Images/dc2.jpg",
-      name: "Diwali Celebration",
-    },
-    {
-      id: "c3",
-      path: "/Gallery_Images/Celebrations_Images/cdc1.jpg",
-      name: "Childrens Day Celebration",
-    },
+    // {
+    //   id: "c2",
+    //   path: "/Gallery_Images/Celebrations_Images/dc2.jpg",
+    //   name: "Diwali Celebration",
+    // },
+    // {
+    //   id: "c3",
+    //   path: "/Gallery_Images/Celebrations_Images/cdc1.jpg",
+    //   name: "Childrens Day Celebration",
+    // },
     {
       id: "c4",
       path: "/Gallery_Images/Celebrations_Images/cdc2.JPG",
       name: "Childrens Day Celebration",
     },
+    // {
+    //   id: "c5",
+    //   path: "/Gallery_Images/Celebrations_Images/dussherac1.jpeg",
+    //   name: "Dushera Celebration",
+    // },
     {
-      id: "c5",
-      path: "/Gallery_Images/Celebrations_Images/dussherac1.jpeg",
-      name: "Dushera Celebration",
+      id: "c19",
+      path: "/Gallery_Images/Celebrations_Images/chritmasdc1.JPG",
+      name: "Chritmas Day Celebration",
     },
     {
       id: "c6",
@@ -56,19 +61,19 @@ function CelebrationsGallery() {
       path: "/Gallery_Images/Celebrations_Images/gcc1.jpg",
       name: "Ganesh Chaturthi Celebration",
     },
-    {
-      id: "c8",
-      path: "/Gallery_Images/Celebrations_Images/gcc2.jpg",
-      name: "Ganesh Chaturthi Celebration",
-    },
-    {
-      id: "c9",
-      path: "/images/celebrations/grandparent1.jpg",
-      name: "Grand Parent's Day Celebration",
-    },
+    // {
+    //   id: "c8",
+    //   path: "/Gallery_Images/Celebrations_Images/gcc2.jpg",
+    //   name: "Ganesh Chaturthi Celebration",
+    // },
+    // {
+    //   id: "c9",
+    //   path: "/Gallery_Images/Celebrations_Images/gdc1.jpg",
+    //   name: "Grand Parent's Day Celebration",
+    // },
     {
       id: "c10",
-      path: "/images/celebrations/grandparent2.jpg",
+      path: "/Gallery_Images/Celebrations_Images/gdc2.jpg",
       name: "Grand Parent's Day Celebration",
     },
     {
@@ -76,16 +81,16 @@ function CelebrationsGallery() {
       path: "/Gallery_Images/Celebrations_Images/idc1.jpeg",
       name: "Independence Day Celebration",
     },
-    {
-      id: "c12",
-      path: "/Gallery_Images/Celebrations_Images/idc2.jpeg",
-      name: "Independence Day Celebration",
-    },
-    {
-      id: "c13",
-      path: "/Gallery_Images/Celebrations_Images/tdc1.JPG",
-      name: "Teacher's Day Celebration",
-    },
+    // {
+    //   id: "c12",
+    //   path: "/Gallery_Images/Celebrations_Images/idc2.jpeg",
+    //   name: "Independence Day Celebration",
+    // },
+    // {
+    //   id: "c13",
+    //   path: "/Gallery_Images/Celebrations_Images/tdc1.JPG",
+    //   name: "Teacher's Day Celebration",
+    // },
     {
       id: "c14",
       path: "/Gallery_Images/Celebrations_Images/tdc2.jpg",
@@ -96,96 +101,91 @@ function CelebrationsGallery() {
       path: "/Gallery_Images/Celebrations_Images/pc1.jpg",
       name: "Pola Celebration",
     },
-    {
-      id: "c16",
-      path: "/Gallery_Images/Celebrations_Images/pc2.jpg",
-      name: "Pola Celebration",
-    },
+    // {
+    //   id: "c16",
+    //   path: "/Gallery_Images/Celebrations_Images/pc2.jpg",
+    //   name: "Pola Celebration",
+    // },
     {
       id: "c17",
       path: "/Gallery_Images/Celebrations_Images/rc1.jpeg",
       name: "Raksha Bandhan Celebration",
     },
-    {
-      id: "c18",
-      path: "/Gallery_Images/Celebrations_Images/rc2.jpeg",
-      name: "Raksha Bandhan Celebration",
-    },
-    {
-      id: "c19",
-      path: "/Gallery_Images/Celebrations_Images/chritmasdc1.JPG",
-      name: "Chritmas Day Celebration",
-    },
-    {
-      id: "c20",
-      path: "/Gallery_Images/Celebrations_Images/chritmasdc2.JPG",
-      name: "Chritmas Day Celebration",
-    },
-    {
-      id: "c21",
-      path: "/Gallery_Images/Celebrations_Images/dc3.jpg",
-      name: "Diwali Celebration",
-    },
-    {
-      id: "c3",
-      path: "/Gallery_Images/Celebrations_Images/cdc3.jpg",
-      name: "Childrens Day Celebration",
-    },
-    {
-      id: "c5",
-      path: "/Gallery_Images/Celebrations_Images/dussherac3.jpeg",
-      name: "Dushera Celebration",
-    },
-    {
-      id: "c7",
-      path: "/Gallery_Images/Celebrations_Images/gcc3.jpg",
-      name: "Ganesh Chaturthi Celebration",
-    },
-    {
-      id: "c9",
-      path: "/images/celebrations/WhatsApp Image 2022-09-26 at 15.52.47.jpeg",
-      name: "Grand Parent's Day Celebration",
-    },
-    {
-      id: "c11",
-      path: "/Gallery_Images/Celebrations_Images/idc3.jpeg",
-      name: "Independence Day Celebration",
-    },
-    {
-      id: "c13",
-      path: "/Gallery_Images/Celebrations_Images/tdc3.JPG",
-      name: "Teacher's Day Celebration",
-    },
-    {
-      id: "c15",
-      path: "/Gallery_Images/Celebrations_Images/pc3.jpg",
-      name: "Pola Celebration",
-    },
-    {
-      id: "c17",
-      path: "/Gallery_Images/Celebrations_Images/rc3.jpeg",
-      name: "Raksha Bandhan Celebration",
-    },
-    {
-      id: "c19",
-      path: "/Gallery_Images/Celebrations_Images/chritmasdc3.JPG",
-      name: "Chritmas Day Celebration",
-    },
-    {
-      id: "c20",
-      path: "/Gallery_Images/Celebrations_Images/colordc1.jpeg",
-      name: "Colour Day Celebrations",
-    },
-    {
-      id: "c21",
-      path: "/Gallery_Images/Celebrations_Images/colordc2.jpeg",
-      name: "Colour Day Celebrations",
-    },
-    {
-      id: "c22",
-      path: "/Gallery_Images/Celebrations_Images/colordc3.jpeg",
-      name: "Colour Day Celebrations",
-    },
+    // {
+    //   id: "c18",
+    //   path: "/Gallery_Images/Celebrations_Images/rc2.jpeg",
+    //   name: "Raksha Bandhan Celebration",
+    // },
+    // {
+    //   id: "c20",
+    //   path: "/Gallery_Images/Celebrations_Images/chritmasdc2.JPG",
+    //   name: "Chritmas Day Celebration",
+    // },
+    // {
+    //   id: "c21",
+    //   path: "/Gallery_Images/Celebrations_Images/dc3.jpg",
+    //   name: "Diwali Celebration",
+    // },
+    // {
+    //   id: "c3",
+    //   path: "/Gallery_Images/Celebrations_Images/cdc3.jpg",
+    //   name: "Childrens Day Celebration",
+    // },
+    // {
+    //   id: "c5",
+    //   path: "/Gallery_Images/Celebrations_Images/dussherac3.jpeg",
+    //   name: "Dushera Celebration",
+    // },
+    // {
+    //   id: "c7",
+    //   path: "/Gallery_Images/Celebrations_Images/gcc3.jpg",
+    //   name: "Ganesh Chaturthi Celebration",
+    // },
+    // {
+    //   id: "c9",
+    //   path: "/Gallery_Images/Celebrations_Images/gdc3.jpeg",
+    //   name: "Grand Parent's Day Celebration",
+    // },
+    // {
+    //   id: "c11",
+    //   path: "/Gallery_Images/Celebrations_Images/idc3.jpeg",
+    //   name: "Independence Day Celebration",
+    // },
+    // {
+    //   id: "c13",
+    //   path: "/Gallery_Images/Celebrations_Images/tdc3.JPG",
+    //   name: "Teacher's Day Celebration",
+    // },
+    // {
+    //   id: "c15",
+    //   path: "/Gallery_Images/Celebrations_Images/pc3.jpg",
+    //   name: "Pola Celebration",
+    // },
+    // {
+    //   id: "c17",
+    //   path: "/Gallery_Images/Celebrations_Images/rc3.jpeg",
+    //   name: "Raksha Bandhan Celebration",
+    // },
+    // {
+    //   id: "c19",
+    //   path: "/Gallery_Images/Celebrations_Images/chritmasdc3.JPG",
+    //   name: "Chritmas Day Celebration",
+    // },
+    // {
+    //   id: "c20",
+    //   path: "/Gallery_Images/Celebrations_Images/colordc1.jpeg",
+    //   name: "Colour Day Celebrations",
+    // },
+    // {
+    //   id: "c21",
+    //   path: "/Gallery_Images/Celebrations_Images/colordc2.jpeg",
+    //   name: "Colour Day Celebrations",
+    // },
+    // {
+    //   id: "c22",
+    //   path: "/Gallery_Images/Celebrations_Images/colordc3.jpeg",
+    //   name: "Colour Day Celebrations",
+    // },
   ];
 
   let googlePictures = [
@@ -250,7 +250,7 @@ function CelebrationsGallery() {
     <div className="background-color-gallery">
       <div className="wrapper-gallery" >
         <h1 className="main-heading-gallery_title">Celebrations Gallery</h1>
-        <div className="button-container">
+        {/* <div className="button-container">
           {buttonTitles.map((button) => (
             <Button
               key={button.id}
@@ -259,7 +259,7 @@ function CelebrationsGallery() {
               className={selectedButton === button.title ? "active-button" : ""}
             />
           ))}
-        </div>
+        </div> */}
         <div className="card-container">
           {imageUrl.map(
             (image, index) =>

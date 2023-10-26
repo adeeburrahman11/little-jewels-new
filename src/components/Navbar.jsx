@@ -58,9 +58,6 @@ function Navbar() {
                 <Link to="/about/teams" onClick={handleLeaveAbout}>
                   Team Little Jewels
                 </Link>
-                <Link to="/about/testimonials" onClick={handleLeaveAbout}>
-                  Testimonials
-                </Link>
               </div>
             )}
           </div>

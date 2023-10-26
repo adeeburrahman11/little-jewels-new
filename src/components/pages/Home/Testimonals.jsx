@@ -77,7 +77,7 @@ function Testimonals() {
             </section>
             <h4 className="parents-name__description">
             Father of Ved Atlani – U.KG. (2020-21)
-            </h4>
+            </h4>   
           </div>
         </Carousel>
       </div>

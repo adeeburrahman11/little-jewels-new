@@ -18,7 +18,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-image: url("/Home_Images/shine-christmas-balls.png");
+  background-image: url("/src/assets/img/shine-christmas-balls.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }

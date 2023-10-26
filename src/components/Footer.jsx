@@ -77,16 +77,13 @@ function Footer() {
             <img src="/Home_Images/jis-new-logo.png" className="img-fluid" />
           </a>
           <a href="https://www.sbjit.edu.in/" target="_blank">
-            <img
-              src="/Home_Images/sbjain-new-logo.png"
-              className="img-fluid"
-            />
+            <img src="/Home_Images/sbjain-new-logo.png" className="img-fluid" />
           </a>
         </div>
       </div>
       <div className="footer-end">
         © 2023 Little Jewels Kindergarten, Nagpur | All Rights Reserved |
-        <Link to="/contact">Contact Us</Link>
+        <Link to="/Contact">Contact Us</Link>
       </div>
     </footer>
   );

@@ -26,7 +26,7 @@ function Testimonals() {
   return (
     <>
       <div>
-        <h1 className="main-heading__testimonals">Testimonals</h1>
+        <h1 className="main-heading__testimonals">Testimonials</h1>
         <img
           className="testimonals-shadow"
           src="/About_Us_Images/Testimonials_Images/icons8-quote-left-480.png"

@@ -27,14 +27,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: end;
-  background: url("/public/About_Us_Images/sammy-line-swirls-for-background.png");
+  background: url("/About_Us_Images/sammy-line-swirls-for-background.png");
   background-size: 40%;
   margin: 2rem;
 }
 
 .App-header-VisionMission h1 {
   text-align: center;
-  font-family: 'Dosis';
+  font-family: "Dosis";
   color: #293162;
   font-size: 3rem;
   text-transform: uppercase;
@@ -52,7 +52,7 @@ body {
 }
 
 .App-main-VisionMission {
-  background: url("/public/About_Us_Images/sammy-line-swirls-for-background.png");
+  background: url("/About_Us_Images/sammy-line-swirls-for-background.png");
   background-size: 50%;
   flex-wrap: wrap;
   display: flex;
@@ -81,7 +81,7 @@ body {
 
 .vision p,
 .mission p {
-  font-family: 'Coiny', cursive;
+  font-family: "Coiny", cursive;
   font-size: 1.2rem;
   margin: 0.5rem 0;
 }
@@ -103,25 +103,21 @@ body {
 
 .vision h2,
 .mission h2 {
-  font-family: 'Coiny', cursive;
+  font-family: "Coiny", cursive;
   font-size: 1.5rem;
   margin: 0.5rem 0;
 }
 
 @media (max-width: 768px) {
-
   .vision,
   .mission {
     width: 80%;
-
   }
 }
-
 
 @media (max-width: 480px) {
   .App-header-VisionMission h1 {
     font-size: 2rem;
-
   }
 
   .wrapper {

@@ -46,19 +46,19 @@ function Navbar() {
             <i className="fa-solid fa-angle-down" />
             {isAboutDropdownOpen && (
               <div className="dropdown-content">
-                <Link to="/about/vision&mission" onClick={closeMobileMenu}>
+                <Link to="/about/vision&mission" onClick={handleLeaveAbout}>
                   Vision & Mission
                 </Link>
-                <Link to="/about/director-message" onClick={closeMobileMenu}>
+                <Link to="/about/director-message" onClick={handleLeaveAbout}>
                   Director Message
                 </Link>
-                <Link to="/about/management" onClick={closeMobileMenu}>
+                <Link to="/about/management" onClick={handleLeaveAbout}>
                   Management
                 </Link>
-                <Link to="/about/teams" onClick={closeMobileMenu}>
+                <Link to="/about/teams" onClick={handleLeaveAbout}>
                   Team Little Jewels
                 </Link>
-                <Link to="/about/testimonials" onClick={closeMobileMenu}>
+                <Link to="/about/testimonials" onClick={handleLeaveAbout}>
                   Testimonials
                 </Link>
               </div>
@@ -75,34 +75,35 @@ function Navbar() {
             <i className="fa-solid fa-angle-down" />
             {isGalleryDropdownOpen && (
               <div className="dropdown-content">
-                <Link to="/gallery/events" onClick={closeMobileMenu}>
+                <Link to="/gallery/events" onClick={handleLeaveGallery}>
                   Events
                 </Link>
-                <Link to="/gallery/celebrations" onClick={closeMobileMenu}>
-                  Celebrations
+                <Link to="/gallery/celebrations" onClick={handleLeaveGallery}>
+                  Activities
+                  {/* the code and resources of Activities are named as Celebrations in website folder */}
                 </Link>
-                <Link to="/gallery/achievements" onClick={closeMobileMenu}>
+                <Link to="/gallery/achievements" onClick={handleLeaveGallery}>
                   Achievements
                 </Link>
-                <Link to="/gallery/media" onClick={closeMobileMenu}>
-                  Media
+                <Link to="/gallery/media" onClick={handleLeaveGallery}>
+                  Media Coverage
                 </Link>
               </div>
             )}
           </div>
         </li>
         <li>
-          <NavLink to="/academics" onClick={closeMobileMenu}>
+          <NavLink to="/academics" onClick={handleLeaveGallery}>
             Academics
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" onClick={closeMobileMenu}>
+          <NavLink to="/contact" onClick={handleLeaveGallery}>
             Careers
           </NavLink>
         </li>
         <li>
-          <NavLink to="/badjate-group" onClick={closeMobileMenu}>
+          <NavLink to="/badjate-group" onClick={handleLeaveGallery}>
             Badjate Group
           </NavLink>
         </li>

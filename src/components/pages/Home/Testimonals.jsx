@@ -79,9 +79,6 @@ function Testimonals() {
             Father of Ved Atlani – U.KG. (2020-21)
             </h4>
           </div>
-          
-
-          {/* Add more testimonial items as needed */}
         </Carousel>
       </div>
     </>

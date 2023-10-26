@@ -1,34 +1,30 @@
 .media-links-container {
-    position: fixed;
-    top: 50%; /* Adjust the vertical position as needed */
-    right: 0;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .social-media-icon {
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    transition: margin-left 0.3s ease-in-out;
-  }
-  
-  .facebook {
-    background-image: url('/MediaLinksImages/facebook.png');
-  }
-  
-  /* .twitter {
-    background-image: url('path/to/twitter-icon.png');
-  } */
-  
-  .instagram {
-    background-image: url('/MediaLinksImages/instagram.png');
-  }
-  
-  /* Add styles and background images for other social media icons as needed */
-  
-  .social-media-icon:hover {
-    margin-left: -30px; /* Adjust the sliding distance as needed */
-  }
-  
+  position: relative;
+  left: 2%;
+  top: 10%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icon {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  transition: margin-left 0.3s ease-in-out;
+}
+.facebook {
+  background-image: url("/MediaLinksImages/facebook.png");
+}
+
+.twitter {
+  background-image: url("path/to/twitter-icon.png");
+}
+
+.instagram {
+  background-image: url("/MediaLinksImages/instagram.png");
+}
+
+.social-media-icon:hover {
+  margin-left: 30px;
+}

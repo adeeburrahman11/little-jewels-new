@@ -1,6 +1,6 @@
 .testimonals-wrapper {
   display: flex;
-  margin: 0rem 3rem;
+  margin: 0rem 5rem;
   padding: 2rem 0;
   justify-content: center;
   background: url("/About_Us_Images/Testimonials_Images/beam-stars.png");
@@ -29,13 +29,12 @@
 }
 
 .card-testimonals {
-  width: 60%; /* Adjust the width as needed */
-  height: auto; /* Adjust the height as needed */
+  width: 60%;
+  height: auto;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  margin: 40px;
   background-color: #d1f6ea91;
   text-align: justify;
   display: flex;
@@ -43,8 +42,9 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis";
-  position: relative; /* Add this to create a stacking context */
-  z-index: 1; /* Add this to place the card above the image */
+  position: relative;
+  z-index: 1;
+  left: 15%;
 }
 .card-testimonals p {
   font-family: "Dosis";

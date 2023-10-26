@@ -89,7 +89,7 @@ body {
 .card-3,
 .card-4,
 .card-5 {
-  width: 13rem;
+  width: 15rem;
   height: 20rem;
 }
 
@@ -151,7 +151,7 @@ body {
   font-size: 1.1rem;
   color: black;
   font-weight: bold;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   font-family: "Exo 2", sans-serif !important;
 }
 
@@ -170,13 +170,6 @@ body {
   border: rgb(81, 183, 81);
 }
 
-.card-3 button {
-  margin-top: 0.5rem;
-}
-
-.card-4 button {
-  margin-top: 0.5rem;
-}
 
 .program-button:hover {
   transform: scale(1.1);

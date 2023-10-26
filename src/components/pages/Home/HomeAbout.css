@@ -131,6 +131,7 @@
 @media (max-wdth: 480px) {
   .text-container p,
   .text-container1 p {
-    font-size: smaller;
+    font-size: 10px;
+    font-weight: normal;
   }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css"; // Create a CSS file for styling
 import { Link } from "react-router-dom";
+import MediaLinks from "./pages/Media_Links/MediaLinks";
 
 function Footer() {
   return (

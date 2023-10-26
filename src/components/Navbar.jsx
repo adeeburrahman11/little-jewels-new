@@ -20,7 +20,7 @@ function Navbar() {
 
   return (
     <nav>
-      <Link to="/" className="title">
+      <Link to="/" className="title" onClick={closeMobileMenu}>
         <img className="lj-logo" src="/Home_Images/lj-logo-new.png" />
       </Link>
       <div className={"menu"} onClick={handleClick}>
@@ -93,17 +93,17 @@ function Navbar() {
           </div>
         </li>
         <li>
-          <NavLink to="/academics" onClick={handleLeaveGallery}>
+          <NavLink to="/academics" onClick={closeMobileMenu}>
             Academics
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" onClick={handleLeaveGallery}>
+          <NavLink to="/contact" onClick={closeMobileMenu}>
             Careers
           </NavLink>
         </li>
         <li>
-          <NavLink to="/badjate-group" onClick={handleLeaveGallery}>
+          <NavLink to="/badjate-group" onClick={closeMobileMenu}>
             Badjate Group
           </NavLink>
         </li>

@@ -75,7 +75,7 @@ class Badjate extends React.Component {
                   className="images-Badjate"
                 />
                 <div className="sub-content-Badjate">
-                  <p>Jain International School, Nagpur</p>
+                  <p>The Jain International School, Nagpur</p>
                 </div>
               </div>
               <div className="images-container-Badjate">

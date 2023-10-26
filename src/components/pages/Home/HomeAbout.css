@@ -18,7 +18,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-image: url("/Gallery_Images/shine-christmas-balls.png");
+  background-image: url("/Home_Images/shine-christmas-balls.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -131,6 +131,7 @@
 @media (max-wdth: 480px) {
   .text-container p,
   .text-container1 p {
-    font-size: smaller;
+    font-size: 10px;
+    font-weight: normal;
   }
 }

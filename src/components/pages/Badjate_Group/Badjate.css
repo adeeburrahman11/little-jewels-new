@@ -11,7 +11,7 @@
 }
 
 .head-Badjate {
-  background: url("/Gallery_Images/sammy-line-swirls-for-background.png");
+  /* background: url("/Gallery_Images/sammy-line-swirls-for-background.png"); */
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -39,7 +39,7 @@
   align-items: center;
   text-align: center;
   margin: 1rem;
-  background: url("/Gallery_Images/sammy-line-swirls-for-background.png");
+  /* background: url("/Gallery_Images/sammy-line-swirls-for-background.png"); */
   background-size: 40%;
 }
 
@@ -69,13 +69,13 @@
   margin: 1rem;
   font-size: 1.5rem;
   font-family: "Dosis";
-  background: url("/Gallery_Images/sammy-line-swirls-for-background.png");
+  /* background: url("/Gallery_Images/sammy-line-swirls-for-background.png"); */
   display: flex;
   background-size: 40%;
 }
 
 .education-Badjate {
-  background: url("/Gallery_Images/sammy-line-swirls-for-background.png");
+  /* background: url("/Gallery_Images/sammy-line-swirls-for-background.png"); */
   justify-content: center;
   align-items: flex-end;
   background-size: 40%;
@@ -102,8 +102,8 @@
 }
 
 .sub-content-Badjate p {
-  text-align: center;
-  font-size: 1.3rem;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .image-Badjate {
@@ -162,11 +162,11 @@
     max-width: 90%;
   }
 
-  .sub-content-Badjate {
-    font-size: 0.9rem;
-  }
-  .images-Badjate {
-    width: 100%;
-    margin-left: auto;
-  }
+    .sub-content-Badjate {
+        font-size: 0.9rem;
+    }
+    .images-Badjate{
+        width: 100%;
+        margin-left: auto;
+    }
 }

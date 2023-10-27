@@ -17,7 +17,7 @@ function Testimonals() {
         />
       </div>
       <div className="testimonals-wrapper">
-      <Carousel autoPlay showArrows={true} showThumbs={true} infiniteLoop={true} emulateTouch showStatus={false}>
+      <Carousel autoPlay showArrows={false} showThumbs={false} infiniteLoop={true} emulateTouch showStatus={false}>
           <div className="card-testimonals">
             <p>
               I am very happy with my choice of school for Anshika. I feel proud

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Card.css";
+import "./CardSandW.css";
 import CardACM from "./CardACM";
 
 function SportsAndWellness() {

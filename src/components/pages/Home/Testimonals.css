@@ -103,7 +103,7 @@
 
   .card-testimonals {
     width: 80%;
-    margin: 20px -30px !important;
+    margin: 20px -30px;
 }
   .testimonals-shadow {
     max-width: 15%; 

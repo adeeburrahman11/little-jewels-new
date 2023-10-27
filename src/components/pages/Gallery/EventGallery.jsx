@@ -26,86 +26,31 @@ function EventGallery() {
       path: "/Gallery_Images/Events_Images/HB.jpeg",
       name: "Healthy Bite",
     },
-    // {
-    //   id: 3,
-    //   path: "/Gallery_Images/Events_Images/yic1.JPG",
-    //   name: "Yes, I Can!",
-    // },
-    // {
-      //   id: 5,
-      //   path: "/Gallery_Images/Events_Images/zzzsc1.jpeg",
-      //   name: "Zip Zap Zoom Summer Camp",
-      // },
-      {
-        id: 7,
-        path: "/Gallery_Images/Events_Images/concert3.JPG",
-        name: "Biennial Concert",
-      },
-      {
-          id: 6,
-          path: "/Gallery_Images/Events_Images/oandw.jpeg",
-          name: "Orientation and Workshop",
-        },
-        {
-          id: 4,
-          path: "/Gallery_Images/Events_Images/yic2.JPG",
-          name: "Yes, I Can!",
-        },
-    // {
-    //   id: 8,
-    //   path: "/Gallery_Images/Events_Images/concert6.JPG",
-    //   name: "Biennial Concert",
-    // },
+    {
+      id: 7,
+      path: "/Gallery_Images/Events_Images/concert3.JPG",
+      name: "Biennial Concert",
+    },
+    {
+      id: 6,
+      path: "/Gallery_Images/Events_Images/oandw.jpeg",
+      name: "Orientation and Workshop",
+    },
+    {
+      id: 4,
+      path: "/Gallery_Images/Events_Images/yic2.JPG",
+      name: "Yes, I Can!",
+    },
     {
       id: 9,
       path: "/Gallery_Images/Events_Images/sports3.JPG",
       name: "Biennial Sports Day",
     },
-    // {
-    //   id: 10,
-    //   path: "/Gallery_Images/Events_Images/sports5.JPG",
-    //   name: "Biennial Sports Day",
-    // },
     {
       id: 11,
       path: "/Gallery_Images/Events_Images/zzz1.JPG",
       name: "Zip Zap Zoom Talent Hunt",
     },
-    // {
-    //   id: 12,
-    //   path: "/Gallery_Images/Events_Images/zzz2.JPG",
-    //   name: "Zip Zap Zoom Talent Hunt",
-    // },
-    // {
-    //   id: 13,
-    //   path: "/Gallery_Images/Events_Images/fdofs3.JPG",
-    //   name: "First Day of School",
-    // },
-    // {
-    //   id: 14,
-    //   path: "/Gallery_Images/Events_Images/yic3.JPG",
-    //   name: "Yes, I Can!",
-    // },
-    // {
-    //   id: 15,
-    //   path: "/Gallery_Images/Events_Images/zzzsc3.JPG",
-    //   name: "Zip Zap Zoom Summer Camp",
-    // },
-    // {
-    //   id: 16,
-    //   path: "/Gallery_Images/Events_Images/concert8.JPG",
-    //   name: "Biennial Concert",
-    // },
-    // {
-    //   id: 17,
-    //   path: "/Gallery_Images/Events_Images/sports8.JPG",
-    //   name: "Biennial Sports Day",
-    // },
-    // {
-    //   id: 18,
-    //   path: "/Gallery_Images/Events_Images/zzz3.JPG",
-    //   name: "Zip Zap Zoom Talent Hunt",
-    // },
   ];
 
   let googlePictures = [
@@ -138,6 +83,16 @@ function EventGallery() {
       id: "ge6",
       path: "https://photos.app.goo.gl/mWthBtBM1PYczS5r9",
       name: "Zip Zap Zoom Talent Hunt",
+    },
+    {
+      id: "ge7",
+      path: "https://photos.app.goo.gl/Hibf8ckGB5qHc6BEA",
+      name: "Orientation and Workshop",
+    },
+    {
+      id: "ge8",
+      path: "https://photos.app.goo.gl/7r6b4vNQnyhEktKJ9",
+      name: "Healthy Bite",
     },
   ];
 

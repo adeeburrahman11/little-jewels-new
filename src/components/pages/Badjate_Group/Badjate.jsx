@@ -19,7 +19,7 @@ class Badjate extends React.Component {
               <p>
                 The group launched it's financial services over 50 years ago
                 with Badjate Stock and Shares Pvt. Ltd. Our Educational
-                institutions commenced in 2006 with Jain International School,
+                institutions commenced in 2006 with The Jain International School,
                 Nagpur (A CBSE School) followed by S.B. Jain Institute of
                 Management, Research & Technology, Nagpur in 2008 and Little
                 Jewels Kindergarten in 2010. (A Feeder Kindergarten of Jain
@@ -86,8 +86,8 @@ class Badjate extends React.Component {
                   className="images-Badjate"
                 />
                 <div className="sub-content-Badjate">
-                  <p>S.B. Jain Institute of Technology</p>
-                  <p>Management & Research, Nagpur</p>
+                  <p>  S.B. Jain Institute of Technology</p>
+                  <p>  Management & Research, Nagpur</p>
                 </div>
               </div>
             </div>

@@ -33,7 +33,6 @@
     align-items: center;
     text-align: center;
     margin: 1rem;
-    
     background-size: 40%;
 }
 
@@ -58,13 +57,11 @@
 .content-Badjate p {
     margin: 1rem;
     font-size: 1.5rem;
-    
     display: flex;
     background-size: 40%;
 }
 
 .education-Badjate {
-    
     justify-content: center;
     align-items: flex-end;
     background-size: 40%;

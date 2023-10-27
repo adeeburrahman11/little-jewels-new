@@ -12,7 +12,6 @@ class Badjate extends React.Component {
         <div className="main-outline-Badjate">
           <div className="head-Badjate">
             <h1>THE BADJATE GROUP </h1>
-            <p className="shadow-Badjate">THE BADJATE GROUP</p>
           </div>
           <div className="body">
           <div className="content-Badjate">

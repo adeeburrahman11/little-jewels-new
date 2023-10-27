@@ -6,7 +6,6 @@ const VisionMission = () => {
     <div className="App-VisionMission">
       <header className="App-header-VisionMission">
         <h1>Our Vision & Mission</h1>
-        {/* <p className="shadow-VisionMission">Vision & Mission</p> */}
       </header>
       <main className="App-main-VisionMission">
         <section className="vision">

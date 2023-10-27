@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Card.css";
 import Card from "./Card";
-import Button from "./Button";
+// import Button from "./Button";
 
 function EventGallery() {
   const [selectedButton, setSelectedButton] = useState(null);
@@ -21,36 +21,36 @@ function EventGallery() {
       path: "/Gallery_Images/Events_Images/fdofs1.JPG",
       name: "First Day of School",
     },
-    // {
-    //   id: 2,
-    //   path: "/Gallery_Images/Events_Images/fdofs2.JPG",
-    //   name: "First Day of School",
-    // },
+    {
+      id: 2,
+      path: "/Gallery_Images/Events_Images/HB.jpeg",
+      name: "Healthy Bite",
+    },
     // {
     //   id: 3,
     //   path: "/Gallery_Images/Events_Images/yic1.JPG",
     //   name: "Yes, I Can!",
     // },
-    {
-      id: 4,
-      path: "/Gallery_Images/Events_Images/yic2.JPG",
-      name: "Yes, I Can!",
-    },
     // {
-    //   id: 5,
-    //   path: "/Gallery_Images/Events_Images/zzzsc1.jpeg",
-    //   name: "Zip Zap Zoom Summer Camp",
-    // },
-    // {
-    //   id: 6,
-    //   path: "/Gallery_Images/Events_Images/zzzsc2.JPG",
-    //   name: "Zip Zap Zoom Summer Camp",
-    // },
-    {
-      id: 7,
-      path: "/Gallery_Images/Events_Images/concert3.JPG",
-      name: "Biennial Concert",
-    },
+      //   id: 5,
+      //   path: "/Gallery_Images/Events_Images/zzzsc1.jpeg",
+      //   name: "Zip Zap Zoom Summer Camp",
+      // },
+      {
+        id: 7,
+        path: "/Gallery_Images/Events_Images/concert3.JPG",
+        name: "Biennial Concert",
+      },
+      {
+          id: 6,
+          path: "/Gallery_Images/Events_Images/oandw.jpeg",
+          name: "Orientation and Workshop",
+        },
+        {
+          id: 4,
+          path: "/Gallery_Images/Events_Images/yic2.JPG",
+          name: "Yes, I Can!",
+        },
     // {
     //   id: 8,
     //   path: "/Gallery_Images/Events_Images/concert6.JPG",

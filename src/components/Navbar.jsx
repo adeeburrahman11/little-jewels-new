@@ -82,6 +82,9 @@ function Navbar() {
                 <Link to="/gallery/achievements" onClick={handleLeaveGallery}>
                   Achievements
                 </Link>
+                <Link to="/gallery/sportsandwellness" onClick={handleLeaveGallery}>
+                  Sports and Wellness
+                </Link>
                 <Link to="/gallery/media" onClick={handleLeaveGallery}>
                   Media Coverage
                 </Link>

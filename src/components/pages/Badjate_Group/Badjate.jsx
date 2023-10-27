@@ -3,7 +3,7 @@ import "./Badjate.css";
 
 class Badjate extends React.Component {
   openWebsite(url) {
-    window.open(url, "_blank"); // Open the website in a new tab/window
+    window.open(url, "_blank"); 
   }
 
   render() {
@@ -12,7 +12,7 @@ class Badjate extends React.Component {
         <div className="main-outline-Badjate">
           <div className="head-Badjate">
             <h1>THE BADJATE GROUP </h1>
-            {/* <p className="shadow-Badjate">THE BADJATE GROUP</p> */}
+            
           </div>
           <div className="body">
             <div className="content-Badjate">
@@ -86,8 +86,8 @@ class Badjate extends React.Component {
                   className="images-Badjate"
                 />
                 <div className="sub-content-Badjate">
-                  <p>  S.B. Jain Institute of Technology</p>
-                  <p>  Management & Research, Nagpur</p>
+                  <p> S.B. Jain Institute of Technology</p>
+                  <p> Management & Research, Nagpur</p>
                 </div>
               </div>
             </div>

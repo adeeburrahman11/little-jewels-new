@@ -31,25 +31,25 @@ function CelebrationsGallery() {
     //   path: "/Gallery_Images/Celebrations_Images/dc2.jpg",
     //   name: "Diwali Celebration",
     // },
-    // {
-    //   id: "c3",
-    //   path: "/Gallery_Images/Celebrations_Images/cdc1.jpg",
-    //   name: "Childrens Day Celebration",
-    // },
     {
       id: "c4",
       path: "/Gallery_Images/Celebrations_Images/cdc2.JPG",
       name: "Childrens Day Celebration",
     },
-    // {
-    //   id: "c5",
-    //   path: "/Gallery_Images/Celebrations_Images/dussherac1.jpeg",
-    //   name: "Dushera Celebration",
-    // },
     {
       id: "c19",
       path: "/Gallery_Images/Celebrations_Images/chritmasdc1.JPG",
       name: "Chritmas Day Celebration",
+    },
+    {
+      id: "c5",
+      path: "/Gallery_Images/Celebrations_Images/toftw.JPG",
+      name: "Talk of the Week",
+    },
+    {
+      id: "c3",
+      path: "/Gallery_Images/Celebrations_Images/rle.JPG",
+      name: "Real Life Experience",
     },
     {
       id: "c6",

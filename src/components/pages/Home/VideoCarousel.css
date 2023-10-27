@@ -1,0 +1,82 @@
+.main-heading__videocarousel {
+  font-family: "Dosis";
+  color: #293162;
+  font-weight: bold;
+  font-size: 4rem;
+  -webkit-text-stroke: 2px #293162;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.videocarousel_wrapper {
+  display: flex;
+  margin: 0rem 3rem;
+  padding: 2rem 0;
+  justify-content: center;
+  background: url("/About_Us_Images/Testimonials_Images/beam-stars.png");
+  background-size: 50%;
+  flex-wrap: wrap;
+}
+
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.video-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.video-slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-slider .control-arrow {
+  background-color: #007bff;
+  font-size: 24px;
+  border-radius: 50%;
+  color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.carousel-slider .dot {
+  background-color: #007bff;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    padding: 10px;
+  }
+
+  .video-slide {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    border-radius: 0;
+  }
+
+  .video-slide {
+    height: 150px;
+  }
+}

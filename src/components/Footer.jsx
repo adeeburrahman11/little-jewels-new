@@ -99,8 +99,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-end">
-        © 2023 Little Jewels Kindergarten, Nagpur | All Rights Reserved |
-        <Link to="/Contact">Contact Us</Link>
+        © 2023 Little Jewels Kindergarten, Nagpur | All Rights Reserved
       </div>
     </footer>
   );

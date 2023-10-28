@@ -80,6 +80,7 @@
   align-items: flex-end;
   background-size: 40%;
   margin: 2rem;
+
 }
 
 .images-container-Badjate {
@@ -104,6 +105,8 @@
 .sub-content-Badjate p {
     text-align: center;
     font-size: 1.2rem;
+    justify-items: center;
+    
 }
 
 .image-Badjate {
@@ -126,6 +129,8 @@
 
   .sub-content-Badjate {
     font-size: 1rem;
+    justify-content: center;
+    text-align: center;
   }
 }
 
@@ -145,6 +150,9 @@
 
   .sub-content-Badjate {
     font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+    
   }
 }
 
@@ -164,9 +172,11 @@
 
     .sub-content-Badjate {
         font-size: 0.9rem;
+        justify-content: center;
+        text-align: center;
     }
     .images-Badjate{
-        width: 100%;
+        width: 110px;
         margin-left: auto;
     }
 }

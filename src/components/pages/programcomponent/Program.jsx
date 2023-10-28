@@ -37,10 +37,14 @@ const App = () => {
       </div>
       <div className="cardsection">
         <div className="card-1" data-aos="slide-up" data-aos-once="false">
+<<<<<<< HEAD
+          <img src="/Home_Program_Images/Pre-Nursery.PNG" alt="image not loaded" />
+=======
           <img
             src="/Home_Program_Images/Pre nursery.png"
             alt="image not loaded"
           />
+>>>>>>> 475aa1c8627c9f7e6dd054dec0b98a7a5fca794f
           <h1>Pre - Nursery</h1>
           <p>
             Age : 2+ <br />

@@ -32,7 +32,7 @@
   background-size: 100%;
 }
 .box-img img {
-  width: 100%;
+  width: 70%;
 }
 
 .btns {
@@ -86,7 +86,7 @@
   }
 
   .box-img img {
-    width: 100%;
+    width: 70%;
   }
 
   .btns button {

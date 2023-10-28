@@ -4,15 +4,6 @@ import "./Card.css";
 const Card = (props) => {
   const [isHovered, setIsHovered] = useState(false);
 
-  const openGooglePhotosLink = () => {
-    const matchingItem = props.googlePictures.find(
-      (item) => item.name === props.name
-    );
-
-    if (matchingItem) {
-      window.open(matchingItem.path, "_blank");
-    }
-  };
 
   return (
     <div

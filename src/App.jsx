@@ -14,11 +14,13 @@ import MediaCoverageGallery from "./components/pages/Gallery/MediaCoverageGaller
 import Program from "./components/pages/programcomponent/Program";
 import "./App.css";
 import SportsAndWellness from "./components/pages/Gallery/SportsAndWellness";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -29,7 +31,10 @@ function App() {
         <Route path="/gallery/events" element={<EventGallery />} />
         <Route path="/gallery/celebrations" element={<CelebrationsGalary />} />
         <Route path="/gallery/achievements" element={<AchievementsGallery />} />
-        <Route path="/gallery/sportsandwellness" element={<SportsAndWellness />} />
+        <Route
+          path="/gallery/sportsandwellness"
+          element={<SportsAndWellness />}
+        />
         <Route path="/gallery/media" element={<MediaCoverageGallery />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/contact" element={<Contact />} />

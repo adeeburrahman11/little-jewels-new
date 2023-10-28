@@ -5,13 +5,15 @@ import Card from "./Card";
 function Management() {
   const [selectedButton, setSelectedButton] = useState(null);
 
-  let imageUrl = [
+  let imageUrls = [
     {
       id: "c1",
       path: "/About_Us_Images/Management_Images/shantilal-badjate-chairman.jpg",
       name: "Shantilal Badjate",
       designation: "Founder Chairman",
-    },
+    }
+  ]
+  let imageUrl = [
     {
       id: "c2",
       path: "/About_Us_Images/Management_Images/anuj-badjate-director.jpg",
@@ -46,12 +48,6 @@ function Management() {
       id: "c7",
       path: "/About_Us_Images/Management_Images/Anmol-Badjatia.png",
       name: "Anmol Badjatia",
-      designation: "Advisor",
-    },
-    {
-      id: "c8",
-      path: "/About_Us_Images/Management_Images/shanthi-menon.png",
-      name: "Shanthi Menon",
       designation: "Principal",
     },
   ];
@@ -65,6 +61,19 @@ function Management() {
       <div className="head">
         <h1>Management </h1>
         {/* <p className="shadow">Management</p> */}
+      </div>
+      <div className="card-container-management">
+        {imageUrls.map(
+          (image, index) =>
+            (selectedButton === null || selectedButton === image.name) && (
+              <Card
+                key={index}
+                path={image.path}
+                name={image.name}
+                designation={image.designation}
+              />
+            )
+        )}
       </div>
 
       <div className="card-container-management">

@@ -36,9 +36,11 @@ export const HomeAbout = () => {
         <div className="text-container">
           <p>
             Little Jewels Kindergarten is a feeder Kindergarten of The Jain
-            International School, Nagpur. Little Jewels is among the leading
-            kindergartens of Nagpur. Little Jewels is a place where children
-            learn, play and grow.
+            International School, Nagpur. It is among the leading kindergartens
+            of Nagpur and is a place where children learn, play and grow. It's
+            not just a kindergarten but a home, full of love and affection to
+            ensure the physical, mental, emotional, cognitive and social
+            development of every young mind.
           </p>
         </div>
       </div>
@@ -52,12 +54,9 @@ export const HomeAbout = () => {
         </div>
         <div className="text-container1">
           <p>
-            It's not just a kindergarten but a home, full of love and affection
-            to ensure the physical, mental, emotional, cognitive and social
-            development of every young mind. Our aim is to encourage children to
-            be self disciplined, innovative, caring, tolerant, honest and
-            friendly. We, at Little Jewels strive to provide a secure and happy
-            learning environment to the children.
+            Our aim is to encourage children to be self-disciplined, innovative,
+            caring, tolerant, honest and friendly all the while providing a
+            secure and happy learning environment to the children.
           </p>
         </div>
       </div>

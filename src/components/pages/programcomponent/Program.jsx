@@ -36,7 +36,7 @@ const App = () => {
       </div>
       <div className="cardsection">
         <div className="card-1" data-aos="slide-up" data-aos-once="false">
-          <img src="/Home_Program_Images/boy1.png" alt="image not loaded" />
+          <img src="/Home_Program_Images/Pre nursery.png" alt="image not loaded" />
           <h1>Pre - Nursery</h1>
           <p>
             Age : 2+ <br />
@@ -53,7 +53,7 @@ const App = () => {
           </button>
         </div>
         <div className="card-2" data-aos="slide-up">
-          <img src="/Home_Program_Images/boy2.png" alt="" />
+          <img src="/Home_Program_Images/Nursery.png" alt="" />
           <h1>Nursery</h1>
           <p>
             Age : 3+ <br />
@@ -70,7 +70,7 @@ const App = () => {
           </button>
         </div>
         <div className="card-3" data-aos="slide-up">
-          <img src="/Home_Program_Images/boy3.png" alt="" />
+          <img src="/Home_Program_Images/LKG.png" alt="" />
           <h1>Lower Kindergarten</h1>
           <p>
             Age : 4+ <br />
@@ -87,7 +87,7 @@ const App = () => {
           </button>
         </div>
         <div className="card-4" data-aos="slide-up">
-          <img src="/Home_Program_Images/boy4.png" alt="" />
+          <img src="/Home_Program_Images/UKG.png" alt="" />
           <h1>Upper Kindergarten</h1>
           <p>
             Age : 5+ <br />
@@ -105,7 +105,7 @@ const App = () => {
         </div>
 
         <div className="card-5" data-aos="slide-up">
-          <img src="/Home_Program_Images/boy5.png" alt="" />
+          <img src="/Home_Program_Images/STD 1.png" alt="" />
           <h1>Grade 1</h1>
           <p>
             Age : 6+ <br />

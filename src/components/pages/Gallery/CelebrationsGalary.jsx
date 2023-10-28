@@ -38,46 +38,51 @@ function CelebrationsGallery() {
     },
     {
       id: "c4",
+      path: "/Gallery_Images/Events_Images/HB.jpeg",
+      name: "Healthy Bite",
+    },
+    {
+      id: "c5",
       path: "/Gallery_Images/Celebrations_Images/toftw.JPG",
       name: "Talk of the Week",
     },
     {
-      id: "c5",
+      id: "c6",
       path: "/Gallery_Images/Celebrations_Images/rle.JPG",
       name: "Real Life Experience",
     },
     {
-      id: "c6",
+      id: "c7",
       path: "/Gallery_Images/Celebrations_Images/dussherac2.jpeg",
       name: "Dushera Celebration",
     },
     {
-      id: "c7",
+      id: "c8",
       path: "/Gallery_Images/Celebrations_Images/gcc1.jpg",
       name: "Ganesh Chaturthi Celebration",
     },
     {
-      id: "c8",
+      id: "c9",
       path: "/Gallery_Images/Celebrations_Images/gdc2.jpg",
       name: "Grand Parent's Day Celebration",
     },
     {
-      id: "c9",
+      id: "c10",
       path: "/Gallery_Images/Celebrations_Images/idc1.jpeg",
       name: "Independence Day Celebration",
     },
     {
-      id: "c10",
+      id: "c11",
       path: "/Gallery_Images/Celebrations_Images/tdc2.jpg",
       name: "Teacher's Day Celebration",
     },
     {
-      id: "c11",
+      id: "c12",
       path: "/Gallery_Images/Celebrations_Images/pc1.jpg",
       name: "Pola Celebration",
     },
     {
-      id: "c12",
+      id: "c13",
       path: "/Gallery_Images/Celebrations_Images/rc1.jpeg",
       name: "Raksha Bandhan Celebration",
     },
@@ -143,6 +148,11 @@ function CelebrationsGallery() {
       id: "gc12",
       path: "https://photos.app.goo.gl/xH4HbjbLMXSJoKar5",
       name: "Real Life Experience",
+    },
+    {
+      id: "ge8",
+      path: "https://photos.app.goo.gl/7r6b4vNQnyhEktKJ9",
+      name: "Healthy Bite",
     },
   ];
 

@@ -103,6 +103,11 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/admission" onClick={closeMobileMenu}>
+            Admission
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/badjate-group" onClick={closeMobileMenu}>
             Badjate Group
           </NavLink>

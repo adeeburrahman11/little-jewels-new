@@ -50,6 +50,12 @@ function Management() {
       name: "Anmol Badjatia",
       designation: "Principal",
     },
+    {
+      id: "c8",
+      path: "/About_Us_Images/Management_Images/PPG.jpg",
+      name: "Pooja Puniyani Gandhi",
+      designation: "Headmistress",
+    },
   ];
 
   const handleButtonClick = (title) => {

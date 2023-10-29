@@ -86,7 +86,8 @@ const AdmissionForm = () => {
 
   return (
     <Fragment>
-      <h1>Admission</h1>
+      <h1>Enquiry Form</h1>
+      <div className="enquiry-form__wrapper">
       <form className="form-container" onSubmit={handleSubmit}>
         <input
           className="text-field"
@@ -200,9 +201,10 @@ const AdmissionForm = () => {
           onChange={handleChange}
         />
         <button style={{backgroundColor:'green', marginTop:'10px', height:'40px'}} className="button" type="submit">
-          Submit
+          Enquire Now
         </button>
       </form>
+      </div>
     </Fragment>
   );
 };

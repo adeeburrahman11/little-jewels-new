@@ -32,7 +32,7 @@ function AcademicsMain() {
         <div className="wrapper">
           <div className="card-container">
             <div className="card_academics">
-              <img src="#" alt="Card Image 1" />
+              <img src="\Academics_Images\ict.JPG" alt="Card Image 1" />
               <div className="overlay">
                 <h2 className="overlay__title">ICT Integrated Pedagogy</h2>
                 <p className="overlay__description">

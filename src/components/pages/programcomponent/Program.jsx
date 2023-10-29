@@ -28,10 +28,10 @@ const App = () => {
         <h1>Programs</h1>
         <div className="paragraph">
           <p>
-            Our program is designed for the holistic development of the child.
-            We have developed an excellent hands on and relevant curriculum for
-            each level of the kindergarten. We have the below programs which the
-            children can enrol in.
+            Our program is designed for the holistic development of each child.
+            We have developed an excellent hands on and age appropriate curriculum for
+            each level of the kindergarten. We have the below programs in which the
+            childrens can be enrolled.
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ const App = () => {
           <h1>Pre - Nursery</h1>
           <p>
             Age : 2+ <br />
-            Children born on or <br /> before 30th <br />
+            Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2022
           </p>
           <button id="programButton" className="program-button" type="button">
@@ -61,7 +61,7 @@ const App = () => {
           <h1>Nursery</h1>
           <p>
             Age : 3+ <br />
-            Children born on or <br /> before 30th <br />
+            Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2021
           </p>
           <button className="program-button" type="button">
@@ -78,7 +78,7 @@ const App = () => {
           <h1>Lower Kindergarten</h1>
           <p>
             Age : 4+ <br />
-            Children born on or <br /> before 30th <br />
+            Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2020
           </p>
           <button className="program-button" type="button">
@@ -95,7 +95,7 @@ const App = () => {
           <h1>Upper Kindergarten</h1>
           <p>
             Age : 5+ <br />
-            Children born on or <br /> before 30th <br />
+            Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2019
           </p>
           <button className="program-button" type="button">
@@ -113,7 +113,7 @@ const App = () => {
           <h1>Grade 1</h1>
           <p>
             Age : 6+ <br />
-            Children born on or <br /> before 30th <br />
+            Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2018
           </p>
           <button className="program-button" type="button">

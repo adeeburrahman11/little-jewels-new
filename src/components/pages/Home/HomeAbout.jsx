@@ -31,7 +31,7 @@ export const HomeAbout = () => {
         data-aos-once="false"
       >
         <div className="image-container">
-          <img src="/Home_Images/au1.JPG" />
+          <img src="/Home_Images/LJK image.jpg" />
         </div>
         <div className="text-container">
           <p>
@@ -50,7 +50,7 @@ export const HomeAbout = () => {
         data-aos-once="false"
       >
         <div className="image-container1">
-          <img src="/Home_Images/au2.JPG" />
+          <img src="/Home_Images/DSC02766.JPG" />
         </div>
         <div className="text-container1">
           <p>

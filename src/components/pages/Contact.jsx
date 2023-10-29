@@ -172,7 +172,7 @@ const Contact = () => {
                     className="form-group"
                   >
                     <a
-                      style={{ textDecoration: "none", color: "black" }}
+                      style={{ textDecoration: "none", color: "red" }}
                       href="https://forms.gle/rzBZ6iHXoADLkqWF8"
                       target="_blank"
                       rel="noopener noreferrer"

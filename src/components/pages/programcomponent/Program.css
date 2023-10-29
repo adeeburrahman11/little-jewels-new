@@ -32,7 +32,7 @@ body {
 }
 
 .header h1 {
-  margin-top: 4rem;
+  margin-top: 0rem;
   font-size: 70px;
   /* font-family: cursive; */
   color: rgb(8, 8, 94);
@@ -163,11 +163,21 @@ body {
   font-size: 1.1rem;
   color: black;
   font-weight: bold;
-  /* margin-left: 1rem; */
+  margin-left: 1rem;
   font-family: "Exo 2", sans-serif !important;
-}
+ }
 
-.card-1 button,
+.card-3 p{
+  margin-top: -1.8rem;
+} 
+
+.card-4 p{
+  margin-top: -1.8rem;
+} 
+
+/* style={{backgroundColor:'rgb(81, 183, 81)', color:'whitesmoke', fontWeight:'bold', padding:'0.5rem 1.2rem 0.8rem 1.2rem', marginTop:'2.5rem', marginLeft:'1rem', borderRadius:'0.5rem', border:'rgb(81, 183, 81)'}} */
+
+/* .card-1 button,
 .card-2 button,
 .card-3 button,
 .card-4 button,
@@ -180,6 +190,18 @@ body {
   margin-left: 1rem;
   border-radius: 0.5rem;
   border: rgb(81, 183, 81);
+} */
+
+.program-button {
+  background-color: rgb(81, 183, 81);
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 0.5rem 1.2rem 0.8rem 1.2rem;
+  margin-top: 1.5rem;
+  margin-left: 0.1rem;
+  border-radius: 0.5rem;
+  border: rgb(81, 183, 81);
+  width: auto;
 }
 
 .program-button:hover {

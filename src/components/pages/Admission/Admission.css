@@ -1,3 +1,12 @@
+.enquiry-form__wrapper {
+    display: flex;
+    margin: 0 1rem;
+    padding: 2rem 0;
+    justify-content: center;
+    background: url("/Gallery_Images/sammy-line-swirls-for-background.png");
+    background-size: 50%;
+    flex-wrap: wrap;
+}
 
 h1 {
     text-align: center;

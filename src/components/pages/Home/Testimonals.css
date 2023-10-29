@@ -16,7 +16,7 @@
   -webkit-text-stroke: 2px #293162;
   text-align: center;
   margin-top: 80px;
-  background-image: url("/About_Us_Images/Testimonials_Images/icons8-quote-left-480.png");
+  /* background-image: url("/About_Us_Images/Testimonials_Images/icons8-quote-left-480.png"); */
 }
 
 .testimonals-shadow {

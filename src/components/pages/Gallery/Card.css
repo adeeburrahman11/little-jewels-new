@@ -152,7 +152,7 @@
   }
   .card_gallery {
     flex: 0 0 calc(50% - 40px);
-    width: 400px;
+    width: 440px;
   }
   .card-image {
     height: 280px;

@@ -406,6 +406,7 @@ body {
 /* Media Query for smaller screens */
 @media (max-width: 480px) {
   .card_academics {
+    margin-left: auto;
     width: 100%;
     height: 180px; /* Adjust height for smaller screens */
   }

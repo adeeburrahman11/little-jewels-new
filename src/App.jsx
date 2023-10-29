@@ -15,6 +15,7 @@ import Program from "./components/pages/programcomponent/Program";
 import "./App.css";
 import SportsAndWellness from "./components/pages/Gallery/SportsAndWellness";
 import ScrollToTop from "./components/ScrollToTop";
+import MediaLinks from "./components/pages/Media_Links/MediaLinks";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/badjate-group" element={<BadjateGroup />} />
         <Route path="/program" element={<Program />} />
       </Routes>
+      <MediaLinks />
       <Footer />
     </div>
   );

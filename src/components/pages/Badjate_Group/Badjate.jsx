@@ -26,6 +26,7 @@ class Badjate extends React.Component {
                 International School)
               </p>
             </div>
+            
             <hr />
             <br />
             <div className="sub-head-Badjate">

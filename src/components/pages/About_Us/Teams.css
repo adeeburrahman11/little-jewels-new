@@ -16,18 +16,7 @@
   position: relative;
 }
 
-.shadow-Teams {
-  font-family: "Dosis";
-  text-transform: uppercase;
-  text-align: center;
-  position: absolute;
-  font-size: 4rem;
-  color: rgba(0, 0, 0, 0.09);
-  transform: scale(1.2, 1);
-}
-
 .teams {
-  background: linear-gradient(#ffe9ac 1%, #f3e3b9 2%, #ffffff 60%);
   margin: 0.5rem;
   padding: 0.75rem;
   text-align: center;

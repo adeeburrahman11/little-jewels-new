@@ -7,7 +7,6 @@ function TeamImage() {
       <div className="teams">
         <header className="App-header-Teams">
           <h1>Team Little Jewels</h1>
-          
         </header>
         <main className="team-main">
           <div className="team-image-container">

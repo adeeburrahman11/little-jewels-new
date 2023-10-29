@@ -26,7 +26,7 @@ const VisionMission = () => {
             encompasses all aspects of growth.
           </p>
           <br />
-          <img src="/About_Us_Images/Vision_Mission_Images/ourmission.jpg" alt="Mission" />
+          <img src="/About_Us_Images/Vision_Mission_Images/NFH03217.JPG" alt="Mission" />
         </section>
       </main>
     </div>

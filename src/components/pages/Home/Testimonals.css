@@ -139,7 +139,7 @@
 
 @media (max-width: 820px) {
   .card-testimonals {
-    left: 25%;
+    left: 0%;
   }
   .testimonals-shadow {
     margin-left: -1rem;
@@ -168,6 +168,6 @@
     font-size: 15px;
   }
   .card-testimonals {
-    left: 30%;
+    left: -40rem;
   }
 }

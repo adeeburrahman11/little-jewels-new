@@ -1,4 +1,6 @@
 import { Fragment, useState } from "react";
+import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 import "./Admission.css"; 
 
 const AdmissionForm = () => {
@@ -27,8 +29,59 @@ const AdmissionForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log(formData);
+
+    const serviceId = "service_d7fd5vg";
+    const templateId = "template_qyo4o4q";
+    const userId = "veuW8ypXzNU4cSONL";
+
+    const emailData = {
+      from_name: formData.firstName + " " + formData.lastName,
+      to_name: "Little Jewels",
+      from_email: "sender@example.com", 
+      firstName: formData.firstName,
+      lastName:formData.lastName,
+      address:formData.address,
+      parentName:formData.parentName,
+      city:formData.city,
+      state:formData.state,
+      selectedClass:formData.selectedClass,
+      previousSchool:formData.previousSchool,
+      dateOfBirth:formData.dateOfBirth,
+      gender:formData.gender,
+      contactNumber:formData.contactNumber,
+      remark:formData.remark,
+    };
+
+    // Send the email using emailjs
+    emailjs.send(serviceId, templateId, emailData, userId).then(
+      () => {
+        toast("You have success fully submitted you enquiry!", {
+            icon: "😁",
+            style: {
+              borderRadius: "rgb(189, 224, 254)",
+              background: "lightgreen",
+              color: "darkgreen",
+            },
+          });
+        setFormData({
+          firstName: "",
+          lastName: "",
+          address: "",
+          parentName: "",
+          city: "",
+          state: "",
+          selectedClass: "",
+          previousSchool: "",
+          dateOfBirth: "",
+          gender: "",
+          contactNumber: "",
+          remark: "",
+        });
+      },
+      (error) => {
+        console.error("Error sending email:", error);
+      }
+    );
   };
 
   return (

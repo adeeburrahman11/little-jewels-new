@@ -31,7 +31,7 @@ export const HomeAbout = () => {
         data-aos-once="false"
       >
         <div className="image-container">
-          <img src="/Home_Images/LJK image.jpg" />
+          <img src="/Home_Images/LJK_image.JPG" />
         </div>
         <div className="text-container">
           <p>

@@ -16,7 +16,7 @@ import "./App.css";
 import SportsAndWellness from "./components/pages/Gallery/SportsAndWellness";
 import ScrollToTop from "./components/ScrollToTop";
 import Admission from "./components/pages/Admission/Admission";
-import { Toaster } from "react-hot-toast"; // for notification don't remover updated HH
+import { Toaster } from "react-hot-toast"; 
 
 function App() {
   return (

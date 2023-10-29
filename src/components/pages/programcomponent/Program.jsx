@@ -41,7 +41,7 @@ const App = () => {
             src="/Home_Program_Images/Pre-Nursery.PNG"
             alt="image not loaded"
           />
-
+>>>>>>> 475aa1c8627c9f7e6dd054dec0b98a7a5fca794f
           <h1>Pre - Nursery</h1>
           <p>
             Age : 2+ <br />

@@ -11,12 +11,16 @@ function Navbar() {
 
   const [isGalleryDropdownOpen, setIsGalleryDropdownOpen] = useState(false);
   const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
+  const [isAdmissionDropdownOpen, setIsAdmissionDropdownOpen] = useState(false);
 
   const handleHoverGallery = () => setIsGalleryDropdownOpen(true);
   const handleLeaveGallery = () => setIsGalleryDropdownOpen(false);
 
   const handleHoverAbout = () => setIsAboutDropdownOpen(true);
   const handleLeaveAbout = () => setIsAboutDropdownOpen(false);
+
+  const handleHoverAdmission = () => setIsAdmissionDropdownOpen(true);
+  const handleLeaveAdmission = () => setIsAdmissionDropdownOpen(false);
 
   return (
     <nav>
@@ -103,9 +107,27 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/admission" onClick={closeMobileMenu}>
+        <div
+            onMouseEnter={handleHoverAdmission}
+            onMouseLeave={handleLeaveAdmission}
+            className="nav-link"
+          >
             Admission
-          </NavLink>
+            <i className="fa-solid fa-angle-down" />
+            {isAdmissionDropdownOpen && (
+              <div className="dropdown-content">
+                <Link to="/admission/enquiry-form" onClick={handleLeaveGallery}>
+                  Enquiry Form
+                </Link>
+                <Link to="/admission/admission-guidelines" onClick={handleLeaveGallery}>
+                  Admission Guidelines
+                </Link>
+          {/* <NavLink to="/admission" onClick={closeMobileMenu}>
+            Admission
+          </NavLink> */}
+          </div>
+            )}
+          </div>
         </li>
         <li>
           <NavLink to="/badjate-group" onClick={closeMobileMenu}>

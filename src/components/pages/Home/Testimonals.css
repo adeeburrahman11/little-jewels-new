@@ -23,9 +23,11 @@
   position: absolute;
   transform: scale(5, 5);
   margin-left: -2.5rem;
-  margin-top: -6rem;
+  margin-top: -8rem;
   opacity: 0.2;
   z-index: -1;
+  width: 5%;
+  height: 10%;
 }
 
 /* .card-testimonals {
@@ -125,13 +127,13 @@
 
   .card-testimonals {
     width: 80%;
-    margin: 20px -30px;
+    /* margin: 20px -30px; */
 }
   .testimonals-shadow {
-    max-width: 15%; 
+    max-width: 7%; 
     height: auto;
-    margin-left: 10rem; 
-    margin-top: -5rem; 
+    /* margin-left: 10rem;  */
+    margin-top: -10rem; 
   }
 }
 
@@ -141,16 +143,26 @@
   }
   .testimonals-shadow {
     margin-left: -1rem;
-    max-width: 40px;
+    max-width: 30px;
+  }
+  .main-heading__testimonals {
+    margin-top: 4remx;
+    font-size: 3rem;
+  }
+  .testimonals-shadow {
+    max-width: 5%;
+    height: auto;
+    margin-top: -8rem;
+    margin-left: -8px;
   }
 }
 
 @media (max-width: 480px) {
   .testimonals-shadow {
-    max-width: 8%;
+    max-width: 7%;
     height: auto;
-    margin-top: -4rem;
-    margin-left: 2px;
+    margin-top: -8rem;
+    margin-left: -10px;
   }
   .parents-name {
     font-size: 15px;

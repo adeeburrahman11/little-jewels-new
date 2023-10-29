@@ -10,20 +10,6 @@ function Footer() {
   return (
     <footer>
       <div className="footer-main">
-        <div className="icons-separation-footer">
-          <a href="https://www.facebook.com/littlejewels001?mibextid=LQQJ4d">
-            <FacebookIcon className="icon" />
-          </a>
-          <a href="https://instagram.com/littlejewelskindergarten?igshid=YTQwZjQ0NmI0OA==">
-            <InstagramIcon className="icon" />
-          </a>
-          <a href="https://www.youtube.com/@littlejewelskindergarten8888/featured">
-            <YouTubeIcon className="icon" />
-          </a>
-          <a href="https://web.whatsapp.com/">
-            <WhatsAppIcon className="icon" />
-          </a>
-        </div>
         <div className="footer-left">
           <img
             className="footer-img"
@@ -99,8 +85,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-end">
-        © 2023 Little Jewels Kindergarten, Nagpur | All Rights Reserved |
-        <Link to="/Contact">Contact Us</Link>
+        © 2023 Little Jewels Kindergarten, Nagpur | All Rights Reserved
       </div>
     </footer>
   );

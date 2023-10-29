@@ -41,18 +41,14 @@ export const HomeMain = () => {
           <p>
             LITTLE <span className="change">JEWELS</span> KINDERGARTEN
           </p>
-          A Feeder Kindergarten of Jain International School, Nagpur
+          A Feeder Kindergarten of The Jain International School, Nagpur
           <div className="btns">
             <button onClick={handleexplore}>E x p l o r e</button>
             <button onClick={handleenquire}>E n q u i r e&nbsp; N o w</button>
           </div>
         </div>
         <div className="box-img" data-aos="slide-left">
-          <img
-            src="/Home_Images/3d-casual-life-couple-walks-with-baby.png"
-            alt=""
-            width={"200px"}
-          />
+          <img src="/Home_Images/Kids4.png" alt="" width={"200px"} />
         </div>
       </div>
     </div>

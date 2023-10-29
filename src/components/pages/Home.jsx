@@ -4,6 +4,7 @@ import { HomeMain } from "./Home/HomeMain";
 import Testimonial from "./Home/Testimonals";
 import { HomeAbout } from "./Home/HomeAbout";
 import Program from "./programcomponent/Program";
+import MediaLinks from "./Media_Links/MediaLinks";
 import VideoCarousel from "./Home/VideoCarousel";
 
 export const Home = () => {
@@ -13,7 +14,8 @@ export const Home = () => {
       <Program />
       <HomeAbout />
       <Testimonial />
-      <VideoCarousel />
+      <MediaLinks />
+      {/* <VideoCarousel /> */}
     </div>
   );
 };

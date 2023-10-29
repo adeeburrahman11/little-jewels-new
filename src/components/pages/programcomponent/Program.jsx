@@ -28,15 +28,19 @@ const App = () => {
         <h1>Programs</h1>
         <div className="paragraph">
           <p>
-            Welcome to our Random Paragraph Generator! Our Generator uses
-            cutting edge technology to create unique and informative paragraph
-            on a wide range of topics ..{" "}
+            Our program is designed for the holistic development of the child.
+            We have developed an excellent hands on and relevant curriculum for
+            each level of the kindergarten. We have the below programs which the
+            children can enrol in.
           </p>
         </div>
       </div>
       <div className="cardsection">
         <div className="card-1" data-aos="slide-up" data-aos-once="false">
-          <img src="/Home_Program_Images/Pre nursery.png" alt="image not loaded" />
+          <img
+            src="/Home_Program_Images/Pre-Nursery.PNG"
+            alt="image not loaded"
+          />
           <h1>Pre - Nursery</h1>
           <p>
             Age : 2+ <br />

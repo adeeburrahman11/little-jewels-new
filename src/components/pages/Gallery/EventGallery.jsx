@@ -6,25 +6,20 @@ import Card from "./Card";
 function EventGallery() {
   const [selectedButton, setSelectedButton] = useState(null);
 
-  let buttonTitles = [
-    { id: "b1", title: "Biennial Concert" },
-    { id: "b2", title: "Biennial Sports Day" },
-    { id: "b3", title: "Zip Zap Zoom Talent Hunt" },
-    { id: "b4", title: "Zip Zap Zoom Summer Camp" },
-    { id: "b5", title: "Yes, I Can!" },
-    { id: "b6", title: "First Day of School" },
-  ];
+  // let buttonTitles = [
+  //   { id: "b1", title: "Biennial Concert" },
+  //   { id: "b2", title: "Biennial Sports Day" },
+  //   { id: "b3", title: "Zip Zap Zoom Talent Hunt" },
+  //   { id: "b4", title: "Zip Zap Zoom Summer Camp" },
+  //   { id: "b5", title: "Yes, I Can!" },
+  //   { id: "b6", title: "First Day of School" },
+  // ];
 
   let imageUrl = [
     {
       id: 1,
       path: "/Gallery_Images/Events_Images/fdofs1.JPG",
       name: "First Day of School",
-    },
-    {
-      id: 2,
-      path: "/Gallery_Images/Events_Images/HB.jpeg",
-      name: "Healthy Bite",
     },
     {
       id: 7,
@@ -88,11 +83,6 @@ function EventGallery() {
       id: "ge7",
       path: "https://photos.app.goo.gl/Hibf8ckGB5qHc6BEA",
       name: "Orientation and Workshop",
-    },
-    {
-      id: "ge8",
-      path: "https://photos.app.goo.gl/7r6b4vNQnyhEktKJ9",
-      name: "Healthy Bite",
     },
   ];
 

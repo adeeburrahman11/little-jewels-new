@@ -52,7 +52,7 @@
 
 .card-testimonals {
   width: 60%;
-  max-width: 60%; /* Set a maximum width for smaller screens */
+  max-width: 50%; /* Set a maximum width for smaller screens */
   height: auto;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -168,6 +168,6 @@
     font-size: 15px;
   }
   .card-testimonals {
-    left: 0px;
+    left: 0%;
   }
 }

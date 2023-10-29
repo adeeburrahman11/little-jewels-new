@@ -6,7 +6,6 @@ function AcademicsMain() {
     <>
       <div className="head">
         <h1>Academics & Beyond </h1>
-        {/* <p className="shadow">Academics & Beyond</p> */}
       </div>
       <div className="sec1">
         <img src="/Academics_Images/1stPic.jpg" alt="img1" />
@@ -33,7 +32,7 @@ function AcademicsMain() {
         <div className="wrapper">
           <div className="card-container">
             <div className="card_academics">
-              <img src="\Academics_Images\rle1.JPG" alt="Card Image 1" />
+              <img src="#" alt="Card Image 1" />
               <div className="overlay">
                 <h2 className="overlay__title">ICT Integrated Pedagogy</h2>
                 <p className="overlay__description">

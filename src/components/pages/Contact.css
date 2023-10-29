@@ -76,17 +76,19 @@
   bottom: 1rem;
   right: 1rem;
   cursor: pointer;
+  width: 20%;
 }
 
-.apply-button2 {
-  background-color: #293162;
-  color: #fff;
-  padding: 5px 20px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  cursor: pointer;
+   .apply-button2 {
+    background-color: #293162;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    width: 20%;
 }
 
 .apply-button1:hover,
@@ -106,6 +108,7 @@
     margin-top: 1rem;
     bottom: auto;
     right: auto;
+    width: 50%;
   }
 
   .apply-button2 {
@@ -173,6 +176,7 @@ button[type="submit"] {
   font-size: 1rem;
   cursor: pointer;
   margin-top: 4rem;
+  width: 30%;
 }
 
 .close-button {
@@ -186,6 +190,7 @@ button[type="submit"] {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
+  width: 30%;
 }
 
 .close-button:hover {

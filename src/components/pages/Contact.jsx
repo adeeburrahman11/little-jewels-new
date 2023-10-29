@@ -251,7 +251,7 @@ const Contact = () => {
                 <button onClick={toggleForm2} className="close-button">
                   Close
                 </button>
-              </div>
+              </div>  
             ) : (
               <>
                 <ul className="points">

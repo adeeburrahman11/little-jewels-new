@@ -12,7 +12,6 @@ const Contact = () => {
     location: "",
     dob: "",
     city: "",
-    file: null,
   });
 
   const handleChange = (e) => {
@@ -55,7 +54,6 @@ const Contact = () => {
           location: form.location,
           dob: form.dob,
           city: form.city,
-          file: form.file,
         },
         "veuW8ypXzNU4cSONL"
       )
@@ -73,7 +71,6 @@ const Contact = () => {
             location: "",
             dob: "",
             city: "",
-            file: null,
           });
         },
         (error) => {
@@ -170,17 +167,18 @@ const Contact = () => {
                       onChange={handleChange}
                     />
                   </div>
-                  <div className="form-group">
-                    <input
-                      type="file"
-                      id="resume"
-                      accept=".pdf, .doc, .docx"
-                      name="file"
-                      onChange={handleChange}
-                    />
-                    <label htmlFor="resume" className="file-input-label">
-                      Upload Resume
-                    </label>
+                  <div
+                    style={{ border: "1px solid black", padding: "0.5rem" }}
+                    className="form-group"
+                  >
+                    <a
+                      style={{ textDecoration: "none", color: "black" }}
+                      href="https://forms.gle/rzBZ6iHXoADLkqWF8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Upload your Resume Here
+                    </a>
                   </div>
 
                   <button type="submit">Submit</button>
@@ -240,18 +238,25 @@ const Contact = () => {
                   <div className="form-group">
                     <input type="text" placeholder="City" />
                   </div>
-                  <div className="form-group">
-                    <input type="file" id="resume" accept=".pdf, .doc, .docx" />
-                    <label htmlFor="resume" className="file-input-label">
-                      Upload Resume
-                    </label>
+                  <div
+                    style={{ border: "1px solid black", padding: "0.5rem" }}
+                    className="form-group"
+                  >
+                    <a
+                      style={{ textDecoration: "none", color: "black" }}
+                      href="https://forms.gle/rzBZ6iHXoADLkqWF8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Upload your Resume Here
+                    </a>
                   </div>
                   <button type="submit">Submit</button>
                 </form>
                 <button onClick={toggleForm2} className="close-button">
                   Close
                 </button>
-              </div>  
+              </div>
             ) : (
               <>
                 <ul className="points">

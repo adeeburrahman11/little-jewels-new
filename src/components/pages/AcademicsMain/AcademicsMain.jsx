@@ -173,7 +173,7 @@ function AcademicsMain() {
             </div>
             <div className="card_academics">
               <img
-                src="\Academics_Images\trasndisciplinary.JPG"
+                src="\Academics_Images\transdicipilinary.jpg"
                 alt="Card Image 2"
               />
               <div className="overlay">

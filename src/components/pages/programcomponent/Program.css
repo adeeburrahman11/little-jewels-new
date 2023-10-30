@@ -165,15 +165,15 @@ body {
   font-weight: bold;
   margin-left: 1rem;
   font-family: "Exo 2", sans-serif !important;
- }
+}
 
-.card-3 p{
+.card-3 p {
   margin-top: -1.8rem;
-} 
+}
 
-.card-4 p{
+.card-4 p {
   margin-top: -1.8rem;
-} 
+}
 
 /* style={{backgroundColor:'rgb(81, 183, 81)', color:'whitesmoke', fontWeight:'bold', padding:'0.5rem 1.2rem 0.8rem 1.2rem', marginTop:'2.5rem', marginLeft:'1rem', borderRadius:'0.5rem', border:'rgb(81, 183, 81)'}} */
 
@@ -296,19 +296,28 @@ body {
 }
 
 @media (max-width: 480px) {
-.card-1 img,
-.card-2 img,
-.card-3 img,
-.card-4 img,
-.card-5 img {
-  border-radius: 25px;
-  height: 9rem;
-  width: 7rem;
-  margin-left: 1.5rem;
-  position: absolute;
-  top: -45px;
-}
-.header h1 {
-  font-size: 40px;
-}
+  .card-1 img,
+  .card-2 img,
+  .card-3 img,
+  .card-4 img,
+  .card-5 img {
+    border-radius: 25px;
+    height: 9rem;
+    width: 7rem;
+    margin-left: 1.5rem;
+    position: absolute;
+    top: -45px;
+  }
+  .card-1 p,
+  .card-2 p,
+  .card-5 p {
+    margin-top: -10px;
+  }
+  .card-3 p,
+  .card-4 p {
+    margin-top: -34px;
+  }
+  .header h1 {
+    font-size: 40px;
+  }
 }

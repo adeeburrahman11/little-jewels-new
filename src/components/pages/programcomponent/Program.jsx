@@ -31,7 +31,7 @@ const App = () => {
             Our program is designed for the holistic development of each child.
             We have developed an excellent hands on and age appropriate curriculum for
             each level of the kindergarten. We have the below programs in which the
-            childrens can be enrolled.
+            children can be enrolled.
           </p>
         </div>
       </div>

@@ -101,7 +101,7 @@ function Navbar() {
         </li>
         <li>
           <NavLink to="/academics" onClick={closeMobileMenu}>
-            Academics
+            Academics & Beyond
           </NavLink>
         </li>
         <li>

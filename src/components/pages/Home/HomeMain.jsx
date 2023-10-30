@@ -48,7 +48,7 @@ export const HomeMain = () => {
           </div>
         </div>
         <div className="box-img" data-aos="slide-left">
-          <img src="/Home_Images/Kids4.png" alt="" width={"200px"} />
+          <img src="/Home_Images/Kids4.png" alt="Home_Image" width={"200px"} />
         </div>
       </div>
     </div>

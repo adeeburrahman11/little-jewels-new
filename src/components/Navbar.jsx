@@ -86,7 +86,10 @@ function Navbar() {
                 <Link to="/gallery/achievements" onClick={handleLeaveGallery}>
                   Achievements
                 </Link>
-                <Link to="/gallery/sportsandwellness" onClick={handleLeaveGallery}>
+                <Link
+                  to="/gallery/sportsandwellness"
+                  onClick={handleLeaveGallery}
+                >
                   Sports and Wellness
                 </Link>
                 <Link to="/gallery/media" onClick={handleLeaveGallery}>
@@ -107,7 +110,7 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-        <div
+          <div
             onMouseEnter={handleHoverAdmission}
             onMouseLeave={handleLeaveAdmission}
             className="nav-link"
@@ -116,16 +119,22 @@ function Navbar() {
             <i className="fa-solid fa-angle-down" />
             {isAdmissionDropdownOpen && (
               <div className="dropdown-content">
-                <Link to="/admission/enquiry-form" onClick={handleLeaveGallery}>
+                <Link
+                  to="/admission/enquiry-form"
+                  onClick={handleLeaveAdmission}
+                >
                   Enquiry Form
                 </Link>
-                <Link to="/admission/admission-guidelines" onClick={handleLeaveGallery}>
+                <Link
+                  to="/admission/admission-guidelines"
+                  onClick={handleLeaveAdmission}
+                >
                   Admission Guidelines
                 </Link>
-          {/* <NavLink to="/admission" onClick={closeMobileMenu}>
+                {/* <NavLink to="/admission" onClick={closeMobileMenu}>
             Admission
           </NavLink> */}
-          </div>
+              </div>
             )}
           </div>
         </li>

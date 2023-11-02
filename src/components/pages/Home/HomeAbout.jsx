@@ -23,6 +23,7 @@ AOS.init({
 
 export const HomeAbout = () => {
   return (
+    <>
     <div className="about-main">
       <h1 className="about-heading">About Us</h1>
       <div
@@ -61,5 +62,6 @@ export const HomeAbout = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };

@@ -16,13 +16,13 @@
 }
 .main-txt p {
   font-family: "Coiny";
-  font-size: 70px;
+  font-size: 60px;
   color: #003366;
 }
 .change {
   color: #f5a524;
   font-family: "Coiny";
-  font-size: 70px;
+  font-size: 60px;
 }
 .box-img {
   flex: 1;
@@ -45,7 +45,7 @@
   text-align: center;
   width: 28%;
   padding: 12px 0px;
-  margin: 6rem 5rem 1rem 1rem;
+  margin: 3rem 5rem 1rem 1rem;
   font-family: "Dosis";
   font-weight: bold;
   font-size: 18px;

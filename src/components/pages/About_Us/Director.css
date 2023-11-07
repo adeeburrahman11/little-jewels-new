@@ -78,6 +78,10 @@ body {
   color: #293162;
 }
 
+.director-name p{
+  font-size: 1.6rem;
+}
+
 /* Responsive Styles for Phones */
 @media screen and (max-width: 600px) {
   * {

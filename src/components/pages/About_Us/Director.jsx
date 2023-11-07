@@ -30,15 +30,15 @@ export default function Director() {
           Jewels Kindergarten is a place where your child will grow, learn,
           become confident, creative, happy and above all be loved.
           <br />
+          <br />
           “ANYTHING AND EVERYTHING FOR CHILDREN”
         </p>
         <hr />
-        <p>
-          <strong> Mrs. Priti Badjate</strong>
+        <p className="director-name">
+          Mrs. Priti Badjate
           <br />
-          <strong>Director</strong>
+          Director
         </p>
-        <p>Little Jewels Kindergarten, Nagpur</p>
       </div>
     </>
   );

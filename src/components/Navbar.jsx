@@ -57,7 +57,7 @@ function Navbar() {
                   Director Message
                 </Link>
                 <Link to="/about/management" onClick={handleLeaveAbout}>
-                  Management
+                  Our Visionary
                 </Link>
                 <Link to="/about/teams" onClick={handleLeaveAbout}>
                   Team Little Jewels

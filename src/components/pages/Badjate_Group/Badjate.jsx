@@ -22,8 +22,8 @@ class Badjate extends React.Component {
                 institutions commenced in 2006 with The Jain International School,
                 Nagpur (A CBSE School) followed by S.B. Jain Institute of
                 Management, Research & Technology, Nagpur in 2008 and Little
-                Jewels Kindergarten in 2010. (A Feeder Kindergarten of Jain
-                International School)
+                Jewels Kindergarten in 2010. (A Feeder Kindergarten of The Jain
+                International School).
               </p>
             </div>
             

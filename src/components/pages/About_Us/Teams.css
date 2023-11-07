@@ -18,7 +18,7 @@
 
 .teams {
   margin: 0.5rem;
-  padding: 0.75rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   max-width: 1450px;
   margin: 0 auto;
   height: auto;
@@ -45,7 +45,7 @@
 
 .team-image {
   width: 100%;
-  max-width: 900px;
+  max-width: 850px;
   margin-top: 5%;
   border-radius: 8px;
   transition: transform 0.3s, box-shadow 0.3s;

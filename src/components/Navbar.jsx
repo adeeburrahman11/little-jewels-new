@@ -57,7 +57,7 @@ function Navbar() {
                   Director Message
                 </Link>
                 <Link to="/about/management" onClick={handleLeaveAbout}>
-                  Our Visionary
+                  Our Visionaries
                 </Link>
                 <Link to="/about/teams" onClick={handleLeaveAbout}>
                   Team Little Jewels
@@ -76,9 +76,6 @@ function Navbar() {
             <i className="fa-solid fa-angle-down" />
             {isGalleryDropdownOpen && (
               <div className="dropdown-content">
-                <Link to="/gallery/video" onClick={handleLeaveGallery}>
-                  Video
-                </Link>
                 <Link to="/gallery/events" onClick={handleLeaveGallery}>
                   Events
                 </Link>
@@ -95,9 +92,11 @@ function Navbar() {
                 >
                   Sports and Wellness
                 </Link>
-                
                 <Link to="/gallery/media" onClick={handleLeaveGallery}>
                   Media Coverage
+                </Link>
+                <Link to="/gallery/video" onClick={handleLeaveGallery}>
+                  Video
                 </Link>
               </div>
             )}

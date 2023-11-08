@@ -54,12 +54,12 @@ function CelebrationsGallery() {
     {
       id: "c7",
       path: "/Gallery_Images/Celebrations_Images/dussherac2.jpeg",
-      name: "Dushera Celebration",
+      name: "Dussehra Celebration",
     },
     {
       id: "c8",
       path: "/Gallery_Images/Celebrations_Images/gcc1.jpg",
-      name: "Ganesh Utsav",
+      name: "Ganesh Utsav Celebrations",
     },
     {
       id: "c9",

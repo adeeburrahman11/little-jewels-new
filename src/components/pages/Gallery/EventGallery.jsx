@@ -18,7 +18,7 @@ function EventGallery() {
   let imageUrl = [
     {
       id: 1,
-      path: "/Gallery_Images/Events_Images/fdofs1.JPG",
+      path: "/Gallery_Images/Events_Images/fdofs.jpeg",
       name: "First Day of School",
     },
     {
@@ -95,18 +95,6 @@ function EventGallery() {
       <div className="background-color-gallery">
         <div className="wrapper-gallery">
           <h1 className="main-heading-gallery_title">Event Gallery</h1>
-          {/* <div className="button-container">
-            {buttonTitles.map((button) => (
-              <Button
-                key={button.id}
-                title={button.title}
-                onClick={() => handleButtonClick(button.title)}
-                className={
-                  selectedButton === button.title ? "active-button" : ""
-                }
-              />
-            ))}
-          </div> */}
           <div className="card-container">
             {imageUrl.map(
               (image, index) =>

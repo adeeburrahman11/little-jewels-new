@@ -73,7 +73,7 @@ body {
   font-family: "Coiny", cursive;
   font-size: 1.2rem;
   margin: 0.5rem 0;
-  color: rgb(215, 60, 60);
+  color: #2e3875;
 }
 
 .vision img{
@@ -101,7 +101,7 @@ body {
   font-family: "Coiny", cursive;
   font-size: 1.5rem;
   margin: 0.5rem 0;
-  color: rgb(149, 34, 34);
+  color: rgb(24, 11, 99);
 }
 
 @media (max-width: 768px) {

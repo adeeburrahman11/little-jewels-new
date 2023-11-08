@@ -10,7 +10,7 @@ function TeamImage() {
         </header>
         <main className="team-main">
           <div className="team-image-container">
-            <img src="/About_Us_Images/Team_Little_Jewels_Images/tljewels.jpg" alt="Team" className="team-image" />
+            <img src="/About_Us_Images/Team_Little_Jewels_Images/LJ STAFF NOV, 2023.jpg" alt="Team" className="team-image" />
           </div>
         </main>
       </div>

@@ -9,7 +9,7 @@ function Management() {
     {
       id: "c1",
       path: "/About_Us_Images/Management_Images/shantilal-badjate-chairman.jpg",
-      name: "Shantilal Badjate",
+      name: "Late Shri. Shantilal Badjate",
       designation: "Founder Chairman",
     }
   ]
@@ -18,7 +18,7 @@ function Management() {
       id: "c2",
       path: "/About_Us_Images/Management_Images/anuj-badjate-director.jpg",
       name: "Anuj Badjate",
-      designation: "Director",
+      designation: "Chairman",
     },
     {
       id: "c3",

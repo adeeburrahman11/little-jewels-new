@@ -26,9 +26,9 @@ const Card = (props) => {
           <h2 className={`card-title ${isHovered ? 'hidden' : ''}`}>{props.name}</h2>
         </div>
         <div className={`card-description ${isHovered ? 'slide-up' : ''}`}>
-          <h4>
+          {/* <h4>
           In the colorful world of kindergarten, little ones eagerly anticipate events  where they do their brightest hues and the excitement of the First Day of School, marking the start of their educational journey.
-          </h4>
+          </h4> */}
           <button className="gallery-card__button" onClick={openGooglePhotosLink}>View More</button>
         </div>
       </div>

@@ -76,6 +76,9 @@ function Navbar() {
             <i className="fa-solid fa-angle-down" />
             {isGalleryDropdownOpen && (
               <div className="dropdown-content">
+                <Link to="/gallery/video" onClick={handleLeaveGallery}>
+                  Video
+                </Link>
                 <Link to="/gallery/events" onClick={handleLeaveGallery}>
                   Events
                 </Link>
@@ -92,6 +95,7 @@ function Navbar() {
                 >
                   Sports and Wellness
                 </Link>
+                
                 <Link to="/gallery/media" onClick={handleLeaveGallery}>
                   Media Coverage
                 </Link>
@@ -120,7 +124,7 @@ function Navbar() {
             {isAdmissionDropdownOpen && (
               <div className="dropdown-content">
                 <Link
-                  to="/admission/enquiry-form"
+                  to="https://forms.gle/cCGiAVJvvatmPAv3A"
                   onClick={handleLeaveAdmission}
                 >
                   Enquiry Form

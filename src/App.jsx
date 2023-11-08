@@ -7,6 +7,7 @@ import VisionMission from "./components/pages/About_Us/VisionMission";
 import Teams from "./components/pages/About_Us/Teams";
 import Director from "./components/pages/About_Us/Director";
 import Management from "./components/pages/About_Us/Management";
+import Video from "./components/pages/Gallery/Video";
 import EventGallery from "./components/pages/Gallery/EventGallery";
 import CelebrationsGalary from "./components/pages/Gallery/CelebrationsGalary";
 import AchievementsGallery from "./components/pages/Gallery/AchievementsGallery";
@@ -31,6 +32,7 @@ function App() {
         <Route path="/about/director-message" element={<Director />} />
         <Route path="/about/management" element={<Management />} />
         <Route path="/about/teams" element={<Teams />} />
+        <Route path="/gallery/video" element={<Video />} />
         <Route path="/gallery/events" element={<EventGallery />} />
         <Route path="/gallery/celebrations" element={<CelebrationsGalary />} />
         <Route path="/gallery/achievements" element={<AchievementsGallery />} />

@@ -41,7 +41,7 @@ export const HomeMain = () => {
           <p>
             LITTLE <span className="change">JEWELS</span> KINDERGARTEN
           </p>
-          A Feeder Kindergarten of The Jain International School, Nagpur
+          A Feeder Kindergarten of <br></br> The Jain International School, <br></br>Nagpur
           <div className="btns">
             <button onClick={handleexplore}>E x p l o r e</button>
             <button onClick={handleenquire}>E n q u i r e&nbsp; N o w</button>

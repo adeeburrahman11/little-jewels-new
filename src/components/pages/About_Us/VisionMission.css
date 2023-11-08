@@ -101,6 +101,7 @@ body {
   font-family: "Coiny", cursive;
   font-size: 1.5rem;
   margin: 0.5rem 0;
+  color: rgb(24, 11, 99);
 }
 
 @media (max-width: 768px) {

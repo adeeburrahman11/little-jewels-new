@@ -110,7 +110,7 @@
   );
   padding: 10px;
   overflow: hidden;
-  height: 38%;
+  height: 10%;
   color: #293162;
   transition: bottom 0.5s;
 }
@@ -164,7 +164,7 @@
     font-size: medium;
   }
   .card-description {
-    height: 52%;
+    height: 10%;
   }
   .card-button {
     font-size: small;
@@ -192,7 +192,7 @@
     font-size: small;
   }
   .card-description {
-    height: 52%;
+    height: 10%;
   }
   .card-button {
     font-size: small;
@@ -217,7 +217,7 @@
     font-size: x-small;
   }
   .card-description {
-    height: 52%;
+    height: 10%;
   }
   .card-button {
     font-size: small;

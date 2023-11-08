@@ -59,7 +59,7 @@ function CelebrationsGallery() {
     {
       id: "c8",
       path: "/Gallery_Images/Celebrations_Images/gcc1.jpg",
-      name: "Ganesh Chaturthi Celebration",
+      name: "Ganesh Utsav",
     },
     {
       id: "c9",

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Card.css';
+import './Video.css';
 
 const VideoCard = (props) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -14,7 +14,7 @@ const VideoCard = (props) => {
 
   return (
     <>
-    <a href={props.videolink}>
+    <a className='video-link' href={props.videolink}>
     <div className={`card_gallery ${isHovered ? 'hovered' : ''}`} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
       <div className="card-content">
         <div className='card-header'>
@@ -22,7 +22,7 @@ const VideoCard = (props) => {
             <img
               src={props.path}
               alt={props.name}
-              className={`card-image ${isHovered ? 'hovered' : ''}`}
+              className={`card-video ${isHovered ? 'hovered' : ''}`}
             />
           </div>
           <h2 className="card-title">{props.name}</h2>

@@ -30,7 +30,7 @@ function Video() {
         {
           id: "v5",
           path: "/Gallery_Images/Video/jis.jpg",
-          videolink: "https://www.youtube.com/shorts/ZQATiJNS9Po",
+          videolink: "https://www.youtube.com/watch?v=zTjiERtQRv4&t=14s",
           name: "Our Parent's School",
         }
         

@@ -164,7 +164,7 @@ function CelebrationsGallery() {
     <>
     <div className="background-color-gallery">
       <div className="wrapper-gallery" >
-        <h1 className="main-heading-gallery_title">Celebrations Gallery</h1>
+        <h1 className="main-heading-gallery_title">Activities Gallery</h1>
         <div className="card-container">
           {imageUrl.map(
             (image, index) =>

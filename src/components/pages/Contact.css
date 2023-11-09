@@ -67,7 +67,7 @@
   font-family: "Dosis";
 }
 
-.apply-button1 {
+.apply-button1__careers {
   background-color: #293162;
   color: #fff;
   padding: 5px 20px;
@@ -79,16 +79,16 @@
   width: 20%;
 }
 
-   .apply-button2 {
-    background-color: #293162;
-    color: #fff;
-    padding: 5px 20px;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    cursor: pointer;
-    width: 20%;
+.apply-button2 {
+  background-color: #293162;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  width: 20%;
 }
 
 .apply-button1:hover,

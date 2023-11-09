@@ -54,12 +54,12 @@ function CelebrationsGallery() {
     {
       id: "c7",
       path: "/Gallery_Images/Celebrations_Images/dussherac2.jpeg",
-      name: "Dushera Celebration",
+      name: "Dussehra Celebration",
     },
     {
       id: "c8",
       path: "/Gallery_Images/Celebrations_Images/gcc1.jpg",
-      name: "Ganesh Utsav",
+      name: "Ganesh Utsav Celebrations",
     },
     {
       id: "c9",
@@ -164,7 +164,7 @@ function CelebrationsGallery() {
     <>
     <div className="background-color-gallery">
       <div className="wrapper-gallery" >
-        <h1 className="main-heading-gallery_title">Celebrations Gallery</h1>
+        <h1 className="main-heading-gallery_title">Activities Gallery</h1>
         <div className="card-container">
           {imageUrl.map(
             (image, index) =>

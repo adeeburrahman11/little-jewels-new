@@ -42,7 +42,7 @@ const App = () => {
             alt="image not loaded"
           />
           <h1>Pre - Nursery</h1>
-          <p>
+          <p id="program__details1">
             Age : 2+ <br />
             Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2022
@@ -59,7 +59,7 @@ const App = () => {
         <div className="card-2" data-aos="slide-up">
           <img src="/Home_Program_Images/Nursery.png" alt="" />
           <h1>Nursery</h1>
-          <p>
+          <p id="program__details2">
             Age : 3+ <br />
             Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2021
@@ -76,7 +76,7 @@ const App = () => {
         <div className="card-3" data-aos="slide-up">
           <img src="/Home_Program_Images/LKG.png" alt="" />
           <h1>Lower Kindergarten</h1>
-          <p>
+          <p id="program__details3">
             Age : 4+ <br />
             Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2020
@@ -93,7 +93,7 @@ const App = () => {
         <div className="card-4" data-aos="slide-up">
           <img src="/Home_Program_Images/UKG.png" alt="" />
           <h1>Upper Kindergarten</h1>
-          <p>
+          <p id="program__details4">
             Age : 5+ <br />
             Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2019
@@ -111,7 +111,7 @@ const App = () => {
         <div className="card-5" data-aos="slide-up">
           <img src="/Home_Program_Images/STD 1.png" alt="" />
           <h1>Grade 1</h1>
-          <p>
+          <p id="program__details5">
             Age : 6+ <br />
             Children born on or <br /> before 31<sup>st</sup> <br />
             December, 2018

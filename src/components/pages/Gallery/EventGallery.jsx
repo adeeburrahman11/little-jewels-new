@@ -56,7 +56,7 @@ function EventGallery() {
     },
     {
       id: "ge2",
-      path: "https://photos.app.goo.gl/kMGJUHFZHScsV3eb8",
+      path: "https://photos.app.goo.gl/x2v34wfpwsbcJsG78",
       name: "Yes, I Can!",
     },
     {
@@ -76,7 +76,7 @@ function EventGallery() {
     },
     {
       id: "ge6",
-      path: "https://photos.app.goo.gl/mWthBtBM1PYczS5r9",
+      path: "https://photos.app.goo.gl/8qV4KPm6QpzUyFoN8",
       name: "Zip Zap Zoom Talent Hunt",
     },
     {

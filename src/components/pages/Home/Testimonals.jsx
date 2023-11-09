@@ -16,6 +16,7 @@ function Testimonals() {
         />
       </div>
       <div className="testimonals-wrapper">
+      <div className="carousel-container">
         <Carousel
           autoPlay
           showArrows={false}
@@ -103,6 +104,7 @@ function Testimonals() {
             </h4>
           </div>
         </Carousel>
+        </div>
       </div>
     </>
   );

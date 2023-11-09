@@ -154,11 +154,11 @@ body {
   font-family: "Exo 2", cursive;
 }
 
-.card-1 p,
-.card-2 p,
-.card-3 p,
-.card-4 p,
-.card-5 p {
+#program__details1,
+#program__details2,
+#program__details3,
+#program__details4,
+#program__details5 {
   margin-top: 1.5rem;
   font-size: 1.1rem;
   color: black;
@@ -167,11 +167,11 @@ body {
   font-family: "Exo 2", sans-serif !important;
 }
 
-.card-3 p {
+#program__details3 {
   margin-top: -1.8rem;
 }
 
-.card-4 p {
+#program__details4 {
   margin-top: -1.8rem;
 }
 
@@ -308,13 +308,13 @@ body {
     position: absolute;
     top: -45px;
   }
-  .card-1 p,
-  .card-2 p,
-  .card-5 p {
+  #program__details1,
+  #program__details2,
+  #program__details5 {
     margin-top: -10px;
   }
-  .card-3 p,
-  .card-4 p {
+  #program__details3,
+  #program__details4 {
     margin-top: -34px;
   }
   .header h1 {

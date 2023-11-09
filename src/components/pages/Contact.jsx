@@ -203,7 +203,7 @@ const Contact = () => {
                   </li>
                   <li>Planning & Implementing marketing strategies.</li>
                 </ul>
-                <button onClick={toggleForm1} className="apply-button1">
+                <button onClick={toggleForm1} className="apply-button2">
                   Apply
                 </button>
               </>
